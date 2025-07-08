@@ -11,4 +11,8 @@ class App {
             System.out.println(app);
         }
     }
+
+    public static void main(String[] args) {
+        displayAppNames(); 
+    }
 }
