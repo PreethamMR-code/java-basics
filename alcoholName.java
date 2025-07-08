@@ -11,4 +11,8 @@ class AlcoholName {
             System.out.println(alcohol);
         }
     }
+
+    public static void main(String[] args) {
+        printAlcoholNames(); 
+    }
 }
