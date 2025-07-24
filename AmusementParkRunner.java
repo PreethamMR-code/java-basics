@@ -7,11 +7,7 @@ public class AmusementParkRunner {
         park1.numberOfRides = 25;
         park1.entryFee = 49.99;
 
-        System.out.println("Amusement Park Name: " + park1.name);
-        System.out.println("Location: " + park1.location);
-        System.out.println("Opening Hours: " + park1.openingHours);
-        System.out.println("Number of Rides: " + park1.numberOfRides);
-        System.out.println("Entry Fee: $" + park1.entryFee);
+       park1.getApInfo();
 
         AmusementPark park2 = new AmusementPark();
         park2.name = "Adventure Land";
@@ -20,11 +16,7 @@ public class AmusementParkRunner {
         park2.numberOfRides = 30;
         park2.entryFee = 59.99;
 
-        System.out.println("\nAmusement Park Name: " + park2.name);
-        System.out.println("Location: " + park2.location);
-        System.out.println("Opening Hours: " + park2.openingHours);
-        System.out.println("Number of Rides: " + park2.numberOfRides);
-        System.out.println("Entry Fee: $" + park2.entryFee);
+        park2.getApInfo();
 
         AmusementPark park3 = new AmusementPark();
         park3.name = "Thrill City";
@@ -33,11 +25,7 @@ public class AmusementParkRunner {
         park3.numberOfRides = 20;
         park3.entryFee = 39.99;
 
-        System.out.println("\nAmusement Park Name: " + park3.name);
-        System.out.println("Location: " + park3.location);
-        System.out.println("Opening Hours: " + park3.openingHours);
-        System.out.println("Number of Rides: " + park3.numberOfRides);
-        System.out.println("Entry Fee: $" + park3.entryFee);
+		park3.getApInfo();
 
         AmusementPark park4 = new AmusementPark();
         park4.name = "Fun World";
@@ -46,11 +34,7 @@ public class AmusementParkRunner {
         park4.numberOfRides = 15;
         park4.entryFee = 29.99;
 
-        System.out.println("\nAmusement Park Name: " + park4.name);
-        System.out.println("Location: " + park4.location);
-        System.out.println("Opening Hours: " + park4.openingHours);
-        System.out.println("Number of Rides: " + park4.numberOfRides);
-        System.out.println("Entry Fee: $" + park4.entryFee);    
+        park4.getApInfo();  
 
         AmusementPark park5 = new AmusementPark();
         park5.name = "Fantasy Park";
@@ -59,11 +43,7 @@ public class AmusementParkRunner {
         park5.numberOfRides = 28;
         park5.entryFee = 54.99;
 
-        System.out.println("\nAmusement Park Name: " + park5.name);
-        System.out.println("Location: " + park5.location);
-        System.out.println("Opening Hours: " + park5.openingHours);
-        System.out.println("Number of Rides: " + park5.numberOfRides);
-        System.out.println("Entry Fee: $" + park5.entryFee);        
+        park5.getApInfo();      
 
         AmusementPark park6 = new AmusementPark();
         park6.name = "Oceanic Fun Park";
@@ -72,11 +52,7 @@ public class AmusementParkRunner {
         park6.numberOfRides = 22;
         park6.entryFee = 39.99;
 
-        System.out.println("\nAmusement Park Name: " + park6.name);
-        System.out.println("Location: " + park6.location);
-        System.out.println("Opening Hours: " + park6.openingHours);
-        System.out.println("Number of Rides: " + park6.numberOfRides);
-        System.out.println("Entry Fee: $" + park6.entryFee);    
+        park6.getApInfo();  
 
         AmusementPark park7 = new AmusementPark();
         park7.name = "Galaxy Rides";
@@ -85,11 +61,7 @@ public class AmusementParkRunner {
         park7.numberOfRides = 27;
         park7.entryFee = 59.99;
 
-        System.out.println("\nAmusement Park Name: " + park7.name);
-        System.out.println("Location: " + park7.location);
-        System.out.println("Opening Hours: " + park7.openingHours);
-        System.out.println("Number of Rides: " + park7.numberOfRides);
-        System.out.println("Entry Fee: $" + park7.entryFee);    
+      park7.getApInfo();  
 
         AmusementPark park8 = new AmusementPark();
         park8.name = "Adventure Bay";
@@ -98,11 +70,7 @@ public class AmusementParkRunner {
         park8.numberOfRides = 25;
         park8.entryFee = 49.99;
 
-        System.out.println("\nAmusement Park Name: " + park8.name);
-        System.out.println("Location: " + park8.location);
-        System.out.println("Opening Hours: " + park8.openingHours);
-        System.out.println("Number of Rides: " + park8.numberOfRides);
-        System.out.println("Entry Fee: $" + park8.entryFee);    
+        park8.getApInfo();   
 
         AmusementPark park9 = new AmusementPark();
         park9.name = "Magic Kingdom";
@@ -111,11 +79,7 @@ public class AmusementParkRunner {
         park9.numberOfRides = 30;
         park9.entryFee = 99.99;
 
-        System.out.println("\nAmusement Park Name: " + park9.name);
-        System.out.println("Location: " + park9.location);
-        System.out.println("Opening Hours: " + park9.openingHours);
-        System.out.println("Number of Rides: " + park9.numberOfRides);
-        System.out.println("Entry Fee: $" + park9.entryFee);    
+        park9.getApInfo();    
 
         AmusementPark park10 = new AmusementPark();
         park10.name = "Thrill Zone";
@@ -124,11 +88,7 @@ public class AmusementParkRunner {
         park10.numberOfRides = 20;
         park10.entryFee = 44.99;
 
-        System.out.println("\nAmusement Park Name: " + park10.name);
-        System.out.println("Location: " + park10.location);
-        System.out.println("Opening Hours: " + park10.openingHours);
-        System.out.println("Number of Rides: " + park10.numberOfRides);
-        System.out.println("Entry Fee: $" + park10.entryFee);   
+        park10.getApInfo();  
 
         AmusementPark park11 = new AmusementPark();
         park11.name = "Fantasy World";
@@ -137,11 +97,7 @@ public class AmusementParkRunner {
         park11.numberOfRides = 26;
         park11.entryFee = 59.99;
 
-        System.out.println("\nAmusement Park Name: " + park11.name);
-        System.out.println("Location: " + park11.location);
-        System.out.println("Opening Hours: " + park11.openingHours);
-        System.out.println("Number of Rides: " + park11.numberOfRides);
-        System.out.println("Entry Fee: $" + park11.entryFee);   
+        park11.getApInfo();  
 
         AmusementPark park12 = new AmusementPark();
         park12.name = "Ocean Adventure";
@@ -150,11 +106,7 @@ public class AmusementParkRunner {
         park12.numberOfRides = 30;
         park12.entryFee = 69.99;
 
-        System.out.println("\nAmusement Park Name: " + park12.name);
-        System.out.println("Location: " + park12.location);
-        System.out.println("Opening Hours: " + park12.openingHours);
-        System.out.println("Number of Rides: " + park12.numberOfRides);
-        System.out.println("Entry Fee: $" + park12.entryFee);   
+        park12.getApInfo();  
 
         AmusementPark park13 = new AmusementPark();
         park13.name = "Galaxy Fun Park";
@@ -163,11 +115,7 @@ public class AmusementParkRunner {
         park13.numberOfRides = 28;
         park13.entryFee = 54.99;
 
-        System.out.println("\nAmusement Park Name: " + park13.name);
-        System.out.println("Location: " + park13.location);
-        System.out.println("Opening Hours: " + park13.openingHours);
-        System.out.println("Number of Rides: " + park13.numberOfRides);
-        System.out.println("Entry Fee: $" + park13.entryFee);   
+        park13.getApInfo();  
 
         AmusementPark park14 = new AmusementPark();
         park14.name = "Adventure Island";
@@ -176,11 +124,7 @@ public class AmusementParkRunner {
         park14.numberOfRides = 32;
         park14.entryFee = 74.99;
 
-        System.out.println("\nAmusement Park Name: " + park14.name);
-        System.out.println("Location: " + park14.location);
-        System.out.println("Opening Hours: " + park14.openingHours);
-        System.out.println("Number of Rides: " + park14.numberOfRides);
-        System.out.println("Entry Fee: $" + park14.entryFee);   
+        park14.getApInfo();  
 
         AmusementPark park15 = new AmusementPark();
         park15.name = "Fun Galaxy";
@@ -189,11 +133,7 @@ public class AmusementParkRunner {
         park15.numberOfRides = 30;
         park15.entryFee = 59.99;
 
-        System.out.println("\nAmusement Park Name: " + park15.name);
-        System.out.println("Location: " + park15.location);
-        System.out.println("Opening Hours: " + park15.openingHours);
-        System.out.println("Number of Rides: " + park15.numberOfRides);
-        System.out.println("Entry Fee: $" + park15.entryFee);   
+        park15.getApInfo(); 
 
         AmusementPark park16 = new AmusementPark();
         park16.name = "Thrill Adventure";
@@ -202,11 +142,7 @@ public class AmusementParkRunner {
         park16.numberOfRides = 35;
         park16.entryFee = 79.99;
 
-        System.out.println("\nAmusement Park Name: " + park16.name);
-        System.out.println("Location: " + park16.location);
-        System.out.println("Opening Hours: " + park16.openingHours);
-        System.out.println("Number of Rides: " + park16.numberOfRides);
-        System.out.println("Entry Fee: $" + park16.entryFee);   
+        park16.getApInfo();
 
         AmusementPark park17 = new AmusementPark();
         park17.name = "Fantasy Adventure";
@@ -215,11 +151,7 @@ public class AmusementParkRunner {
         park17.numberOfRides = 40;
         park17.entryFee = 89.99;
 
-        System.out.println("\nAmusement Park Name: " + park17.name);
-        System.out.println("Location: " + park17.location);
-        System.out.println("Opening Hours: " + park17.openingHours);
-        System.out.println("Number of Rides: " + park17.numberOfRides);
-        System.out.println("Entry Fee: $" + park17.entryFee);   
+         park17.getApInfo();
 
         AmusementPark park18 = new AmusementPark();
         park18.name = "Galaxy Adventure";
@@ -228,11 +160,7 @@ public class AmusementParkRunner {
         park18.numberOfRides = 45;
         park18.entryFee = 99.99;
 
-        System.out.println("\nAmusement Park Name: " + park18.name);
-        System.out.println("Location: " + park18.location);
-        System.out.println("Opening Hours: " + park18.openingHours);
-        System.out.println("Number of Rides: " + park18.numberOfRides);
-        System.out.println("Entry Fee: $" + park18.entryFee);   
+        park18.getApInfo(); 
 
         AmusementPark park19 = new AmusementPark();
         park19.name = "Adventure Galaxy";
@@ -241,11 +169,16 @@ public class AmusementParkRunner {
         park19.numberOfRides = 50;
         park19.entryFee = 109.99;
 
-        System.out.println("\nAmusement Park Name: " + park19.name);
-        System.out.println("Location: " + park19.location);
-        System.out.println("Opening Hours: " + park19.openingHours);
-        System.out.println("Number of Rides: " + park19.numberOfRides);
-        System.out.println("Entry Fee: $" + park19.entryFee);   
+        park19.getApInfo();   
+	  
+	    AmusementPark park20 = new AmusementPark();
+        park19.name = "wonderla";
+        park19.location = "bengaaluru";
+        park19.openingHours = "10:00 AM - 8:00 PM";
+        park19.numberOfRides = 50;
+        park19.entryFee = 109.99;
+
+      park20.getApInfo();  
 
         
     }

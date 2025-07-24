@@ -2,7 +2,7 @@ public class HatRunner {
     public static void main(String[] args) {
 
         Hat hat1 = new Hat();
-        hat1.type = "Fedora";
+        hat1.type = "cricket cap";
         hat1.color = "Black";
         hat1.size = "Medium";
         hat1.material = "Wool";
@@ -210,5 +210,75 @@ public class HatRunner {
         System.out.println("Size: " + hat15.size);
         System.out.println("Material: " + hat15.material);
         System.out.println("Brand: " + hat15.brand);
+		
+		Hat hat16 = new Hat();
+        hat16.type = "Fedora";
+        hat16.color = "Grey";
+        hat16.size = "Large";
+        hat16.material = "Felt";
+        hat16.brand = "Stetson";
+
+        System.out.println("\nHat Details:");
+        System.out.println("Type: " + hat16.type);
+        System.out.println("Color: " + hat16.color);
+        System.out.println("Size: " + hat16.size);
+        System.out.println("Material: " + hat16.material);
+        System.out.println("Brand: " + hat16.brand);
+
+        Hat hat17 = new Hat();
+        hat17.type = "Beanie";
+        hat17.color = "Navy Blue";
+        hat17.size = "One Size";
+        hat17.material = "Acrylic";
+        hat17.brand = "Carhartt";
+
+        System.out.println("\nHat Details:");
+        System.out.println("Type: " + hat17.type);
+        System.out.println("Color: " + hat17.color);
+        System.out.println("Size: " + hat17.size);
+        System.out.println("Material: " + hat17.material);
+        System.out.println("Brand: " + hat17.brand);
+
+        Hat hat18 = new Hat();
+        hat18.type = "Baseball Cap";
+        hat18.color = "Black";
+        hat18.size = "Adjustable";
+        hat18.material = "Cotton";
+        hat18.brand = "Nike";
+
+        System.out.println("\nHat Details:");
+        System.out.println("Type: " + hat18.type);
+        System.out.println("Color: " + hat18.color);
+        System.out.println("Size: " + hat18.size);
+        System.out.println("Material: " + hat18.material);
+        System.out.println("Brand: " + hat18.brand);
+
+        Hat hat19 = new Hat();
+        hat19.type = "Sun Hat";
+        hat19.color = "Beige";
+        hat19.size = "Large";
+        hat19.material = "Straw";
+        hat19.brand = "OutdoorGear";
+
+        System.out.println("\nHat Details:");
+        System.out.println("Type: " + hat19.type);
+        System.out.println("Color: " + hat19.color);
+        System.out.println("Size: " + hat19.size);
+        System.out.println("Material: " + hat19.material);
+        System.out.println("Brand: " + hat19.brand);
+
+        Hat hat20 = new Hat();
+        hat20.type = "Top Hat";
+        hat20.color = "Black";
+        hat20.size = "Small";
+        hat20.material = "Silk";
+        hat20.brand = "FancyWear";
+
+        System.out.println("\nHat Details:");
+        System.out.println("Type: " + hat20.type);
+        System.out.println("Color: " + hat20.color);
+        System.out.println("Size: " + hat20.size);
+        System.out.println("Material: " + hat20.material);
+        System.out.println("Brand: " + hat20.brand);
     }
 }
