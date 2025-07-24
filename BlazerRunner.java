@@ -8,13 +8,7 @@ public class BlazerRunner {
         blazer1.brand = "BrandX";
         blazer1.blazerType = "Formal";      
     
-        System.out.println("Blazer Details:");
-        System.out.println("Color: " + blazer1.color);  
-        System.out.println("Size: " + blazer1.size);
-        System.out.println("Fabric Type: " + blazer1.fabricType);
-        System.out.println("Price: " + blazer1.price);
-        System.out.println("Brand: " + blazer1.brand);
-        System.out.println("Blazer Type: " + blazer1.blazerType);
+        blazer1.getBlazerInfo();
 
         Blazer blazer2 = new Blazer();
         blazer2.color = "Black";                
@@ -24,13 +18,7 @@ public class BlazerRunner {
         blazer2.brand = "BrandY";
         blazer2.blazerType = "Casual";  
 
-        System.out.println("\nBlazer Details:");
-        System.out.println("Color: " + blazer2.color);
-        System.out.println("Size: " + blazer2.size);
-        System.out.println("Fabric Type: " + blazer2.fabricType);
-        System.out.println("Price: " + blazer2.price);
-        System.out.println("Brand: " + blazer2.brand);
-        System.out.println("Blazer Type: " + blazer2.blazerType);
+       blazer2.getBlazerInfo();
 
         Blazer blazer3 = new Blazer();
         blazer3.color = "Gray";     
@@ -40,29 +28,17 @@ public class BlazerRunner {
         blazer3.brand = "BrandZ";
         blazer3.blazerType = "Formal";
 
-        System.out.println("\nBlazer Details:");
-        System.out.println("Color: " + blazer3.color);
-        System.out.println("Size: " + blazer3.size);
-        System.out.println("Fabric Type: " + blazer3.fabricType);
-        System.out.println("Price: " + blazer3.price);
-        System.out.println("Brand: " + blazer3.brand);
-        System.out.println("Blazer Type: " + blazer3.blazerType);   
-
+        blazer3.getBlazerInfo();
+	   
         Blazer blazer4 = new Blazer();
         blazer4.color = "Brown";
-    blazer4.size = "S";
+		blazer4.size = "S";
         blazer4.fabricType = "Linen";
         blazer4.price = 110.00;
         blazer4.brand = "BrandA";
         blazer4.blazerType = "Casual";
 
-        System.out.println("\nBlazer Details:");
-        System.out.println("Color: " + blazer4.color);
-        System.out.println("Size: " + blazer4.size);
-        System.out.println("Fabric Type: " + blazer4.fabricType);
-        System.out.println("Price: " + blazer4.price);
-        System.out.println("Brand: " + blazer4.brand);
-        System.out.println("Blazer Type: " + blazer4.blazerType);
+        blazer4.getBlazerInfo();
 
         Blazer blazer5 = new Blazer();
         blazer5.color = "Charcoal";
@@ -72,13 +48,7 @@ public class BlazerRunner {
         blazer5.brand = "BrandB";
         blazer5.blazerType = "Formal";
 
-        System.out.println("\nBlazer Details:");
-        System.out.println("Color: " + blazer5.color);
-        System.out.println("Size: " + blazer5.size);
-        System.out.println("Fabric Type: " + blazer5.fabricType);
-        System.out.println("Price: " + blazer5.price);
-        System.out.println("Brand: " + blazer5.brand);
-        System.out.println("Blazer Type: " + blazer5.blazerType);
+        blazer5.getBlazerInfo();
 
         Blazer blazer6 = new Blazer();
         blazer6.color = "Beige";
@@ -88,13 +58,7 @@ public class BlazerRunner {
         blazer6.brand = "BrandC";
         blazer6.blazerType = "Casual";
 
-        System.out.println("\nBlazer Details:");
-        System.out.println("Color: " + blazer6.color);
-        System.out.println("Size: " + blazer6.size);
-        System.out.println("Fabric Type: " + blazer6.fabricType);
-        System.out.println("Price: " + blazer6.price);
-        System.out.println("Brand: " + blazer6.brand);
-        System.out.println("Blazer Type: " + blazer6.blazerType);   
+        blazer6.getBlazerInfo();  
 
         Blazer blazer7 = new Blazer();
         blazer7.color = "Olive";
@@ -104,13 +68,7 @@ public class BlazerRunner {
         blazer7.brand = "BrandD";
         blazer7.blazerType = "Formal";
 
-        System.out.println("\nBlazer Details:");
-        System.out.println("Color: " + blazer7.color);
-        System.out.println("Size: " + blazer7.size);
-        System.out.println("Fabric Type: " + blazer7.fabricType);
-        System.out.println("Price: " + blazer7.price);
-        System.out.println("Brand: " + blazer7.brand);
-        System.out.println("Blazer Type: " + blazer7.blazerType);
+     blazer7.getBlazerInfo();
 
         Blazer blazer8 = new Blazer();
         blazer8.color = "Navy";
@@ -120,13 +78,7 @@ public class BlazerRunner {
         blazer8.brand = "BrandE";
         blazer8.blazerType = "Casual";
 
-        System.out.println("\nBlazer Details:");
-        System.out.println("Color: " + blazer8.color);
-        System.out.println("Size: " + blazer8.size);
-        System.out.println("Fabric Type: " + blazer8.fabricType);
-        System.out.println("Price: " + blazer8.price);
-        System.out.println("Brand: " + blazer8.brand);
-        System.out.println("Blazer Type: " + blazer8.blazerType);
+       blazer8.getBlazerInfo();
 
         Blazer blazer9 = new Blazer();
         blazer9.color = "Black";
@@ -136,13 +88,7 @@ public class BlazerRunner {
         blazer9.brand = "BrandF";
         blazer9.blazerType = "Formal";
 
-        System.out.println("\nBlazer Details:");
-        System.out.println("Color: " + blazer9.color);
-        System.out.println("Size: " + blazer9.size);
-        System.out.println("Fabric Type: " + blazer9.fabricType);
-        System.out.println("Price: " + blazer9.price);
-        System.out.println("Brand: " + blazer9.brand);
-        System.out.println("Blazer Type: " + blazer9.blazerType);
+       blazer9.getBlazerInfo();
 
         Blazer blazer10 = new Blazer();
         blazer10.color = "Gray";    
@@ -152,13 +98,7 @@ public class BlazerRunner {
         blazer10.brand = "BrandG";
         blazer10.blazerType = "Casual";
 
-        System.out.println("\nBlazer Details:");
-        System.out.println("Color: " + blazer10.color);
-        System.out.println("Size: " + blazer10.size);
-        System.out.println("Fabric Type: " + blazer10.fabricType);
-        System.out.println("Price: " + blazer10.price);
-        System.out.println("Brand: " + blazer10.brand);
-        System.out.println("Blazer Type: " + blazer10.blazerType);
+        blazer10.getBlazerInfo();
 
             Blazer blazer11 = new Blazer();
         blazer11.color = "Brown";
@@ -168,13 +108,7 @@ public class BlazerRunner {
         blazer11.brand = "BrandH";
         blazer11.blazerType = "Formal";
 
-        System.out.println("\nBlazer Details:");
-        System.out.println("Color: " + blazer11.color);
-        System.out.println("Size: " + blazer11.size);
-        System.out.println("Fabric Type: " + blazer11.fabricType);
-        System.out.println("Price: " + blazer11.price);
-        System.out.println("Brand: " + blazer11.brand);
-        System.out.println("Blazer Type: " + blazer11.blazerType);  
+        blazer11.getBlazerInfo(); 
 
         Blazer blazer12 = new Blazer();
         blazer12.color = "Charcoal";
@@ -184,13 +118,7 @@ public class BlazerRunner {
         blazer12.brand = "BrandI";
         blazer12.blazerType = "Formal";
 
-        System.out.println("\nBlazer Details:");
-        System.out.println("Color: " + blazer12.color);
-        System.out.println("Size: " + blazer12.size);
-        System.out.println("Fabric Type: " + blazer12.fabricType);
-        System.out.println("Price: " + blazer12.price);
-        System.out.println("Brand: " + blazer12.brand);
-        System.out.println("Blazer Type: " + blazer12.blazerType);      
+        blazer12.getBlazerInfo();     
 
         Blazer blazer13 = new Blazer();
         blazer13.color = "Beige";
@@ -200,13 +128,7 @@ public class BlazerRunner {
         blazer13.brand = "BrandJ";
         blazer13.blazerType = "Casual";
 
-        System.out.println("\nBlazer Details:");
-        System.out.println("Color: " + blazer13.color);
-        System.out.println("Size: " + blazer13.size);
-        System.out.println("Fabric Type: " + blazer13.fabricType);
-        System.out.println("Price: " + blazer13.price);
-        System.out.println("Brand: " + blazer13.brand);
-        System.out.println("Blazer Type: " + blazer13.blazerType);  
+        blazer13.getBlazerInfo();
 
         Blazer blazer14 = new Blazer();
         blazer14.color = "Olive";
@@ -216,13 +138,7 @@ public class BlazerRunner {
         blazer14.brand = "BrandK";
         blazer14.blazerType = "Casual";
 
-        System.out.println("\nBlazer Details:");
-        System.out.println("Color: " + blazer14.color);
-        System.out.println("Size: " + blazer14.size);
-        System.out.println("Fabric Type: " + blazer14.fabricType);
-        System.out.println("Price: " + blazer14.price);
-        System.out.println("Brand: " + blazer14.brand);
-        System.out.println("Blazer Type: " + blazer14.blazerType);          
+        blazer14.getBlazerInfo() ;        
 
         Blazer blazer15 = new Blazer();
         blazer15.color = "Navy";
@@ -232,13 +148,7 @@ public class BlazerRunner {
         blazer15.brand = "BrandL";
         blazer15.blazerType = "Formal";
 
-        System.out.println("\nBlazer Details:");
-        System.out.println("Color: " + blazer15.color);
-        System.out.println("Size: " + blazer15.size);
-        System.out.println("Fabric Type: " + blazer15.fabricType);
-        System.out.println("Price: " + blazer15.price);
-        System.out.println("Brand: " + blazer15.brand);
-        System.out.println("Blazer Type: " + blazer15.blazerType);  
+       blazer15.getBlazerInfo();  
 
         Blazer blazer16 = new Blazer();
         blazer16.color = "Black";
@@ -248,13 +158,7 @@ public class BlazerRunner {
         blazer16.brand = "BrandM";
         blazer16.blazerType = "Casual";
 
-        System.out.println("\nBlazer Details:");
-        System.out.println("Color: " + blazer16.color);
-        System.out.println("Size: " + blazer16.size);
-        System.out.println("Fabric Type: " + blazer16.fabricType);
-        System.out.println("Price: " + blazer16.price);
-        System.out.println("Brand: " + blazer16.brand);
-        System.out.println("Blazer Type: " + blazer16.blazerType);  
+        blazer16.getBlazerInfo();
 
         Blazer blazer17 = new Blazer();
         blazer17.color = "Gray";    
@@ -264,13 +168,7 @@ public class BlazerRunner {
         blazer17.brand = "BrandN";
         blazer17.blazerType = "Formal";
 
-        System.out.println("\nBlazer Details:");
-        System.out.println("Color: " + blazer17.color);
-        System.out.println("Size: " + blazer17.size);
-        System.out.println("Fabric Type: " + blazer17.fabricType);
-        System.out.println("Price: " + blazer17.price);
-        System.out.println("Brand: " + blazer17.brand);
-        System.out.println("Blazer Type: " + blazer17.blazerType);  
+        blazer17.getBlazerInfo(); 
 
         Blazer blazer18 = new Blazer();
         blazer18.color = "Brown";
@@ -280,13 +178,7 @@ public class BlazerRunner {
         blazer18.brand = "BrandO";
         blazer18.blazerType = "Casual";
 
-        System.out.println("\nBlazer Details:");
-        System.out.println("Color: " + blazer18.color);
-        System.out.println("Size: " + blazer18.size);
-        System.out.println("Fabric Type: " + blazer18.fabricType);
-        System.out.println("Price: " + blazer18.price);
-        System.out.println("Brand: " + blazer18.brand);
-        System.out.println("Blazer Type: " + blazer18.blazerType);
+        blazer18.getBlazerInfo();
 
         Blazer blazer19 = new Blazer();
         blazer19.color = "Charcoal";
@@ -296,13 +188,7 @@ public class BlazerRunner {
         blazer19.brand = "BrandP";
         blazer19.blazerType = "Formal";
 
-        System.out.println("\nBlazer Details:");
-        System.out.println("Color: " + blazer19.color);
-        System.out.println("Size: " + blazer19.size);
-        System.out.println("Fabric Type: " + blazer19.fabricType);
-        System.out.println("Price: " + blazer19.price);
-        System.out.println("Brand: " + blazer19.brand);
-        System.out.println("Blazer Type: " + blazer19.blazerType);  
+        blazer19.getBlazerInfo();  
 
         Blazer blazer20 = new Blazer();
         blazer20.color = "Olive";
@@ -312,13 +198,7 @@ public class BlazerRunner {
         blazer20.brand = "BrandQ";
         blazer20.blazerType = "Casual";
 
-        System.out.println("\nBlazer Details:");
-        System.out.println("Color: " + blazer20.color);
-        System.out.println("Size: " + blazer20.size);
-        System.out.println("Fabric Type: " + blazer20.fabricType);
-        System.out.println("Price: " + blazer20.price);
-        System.out.println("Brand: " + blazer20.brand);
-        System.out.println("Blazer Type: " + blazer20.blazerType);  
+        blazer20.getBlazerInfo();
     }
 
 }

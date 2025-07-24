@@ -1,211 +1,163 @@
 public class ForestSafariRunner {
     public static void main(String[] args) {
-        ForestSafari safari = new ForestSafari();
-        safari.name = "Amazon Rainforest Safari";
-        safari.location = "Brazil";
-        safari.duration = "7 days";
-        safari.type = "Adventure";
-        safari.price = 1500.00;
-
-        System.out.println("Safari Name: " + safari.name);
-        System.out.println("Location: " + safari.location);
-        System.out.println("Duration: " + safari.duration);
-        System.out.println("Type: " + safari.type);
-        System.out.println("Price: $" + safari.price);
+        ForestSafari safari1 = new ForestSafari();
+        safari1.name = "Ranthambore Tiger Safari";
+        safari1.location = "Ranthambore National Park, India";
+        safari1.duration = "3 hours";
+        safari1.type = "Jeep Safari";
+        safari1.price = 50.00;
+        safari1.getSafariInfo();
 
         ForestSafari safari2 = new ForestSafari();
-        safari2.name = "Serengeti Safari";
-        safari2.location = "Tanzania";
-        safari2.duration = "5 days";
-        safari2.type = "Wildlife";
-        safari2.price = 1200.00;
-
-        System.out.println("\nSafari Name: " + safari2.name);
-        System.out.println("Location: " + safari2.location);
-        System.out.println("Duration: " + safari2.duration);
-        System.out.println("Type: " + safari2.type);
-        System.out.println("Price: $" + safari2.price);
+        safari2.name = "Serengeti Great Migration";
+        safari2.location = "Serengeti National Park, Tanzania";
+        safari2.duration = "7 days";
+        safari2.type = "Overland Safari";
+        safari2.price = 3500.00;
+        safari2.getSafariInfo();
 
         ForestSafari safari3 = new ForestSafari();
-        safari3.name = "Outback Safari";
-        safari3.location = "Australia";
-        safari3.duration = "6 days";
-        safari3.type = "Adventure";
-        safari3.price = 1800.00;
+        safari3.name = "Amazon Rainforest Expedition";
+        safari3.location = "Amazon Basin, Brazil";
+        safari3.duration = "5 days";
+        safari3.type = "Boat Safari";
+        safari3.price = 1200.00;
+        safari3.getSafariInfo();
 
-        System.out.println("\nSafari Name: " + safari3.name);
-        System.out.println("Location: " + safari3.location);
-        System.out.println("Duration: " + safari3.duration);
-        System.out.println("Type: " + safari3.type);
-        System.out.println("Price: $" + safari3.price);
-    
         ForestSafari safari4 = new ForestSafari();
-        safari4.name = "Sahara Desert Safari";
-        safari4.location = "Egypt";
-        safari4.duration = "5 days";
-        safari4.type = "Adventure";
-        safari4.price = 1600.00;
-
-        System.out.println("\nSafari Name: " + safari4.name);
-        System.out.println("Location: " + safari4.location);
-        System.out.println("Duration: " + safari4.duration);
-        System.out.println("Type: " + safari4.type);
-        System.out.println("Price: $" + safari4.price);
+        safari4.name = "Jim Corbett Wildlife Tour";
+        safari4.location = "Jim Corbett National Park, India";
+        safari4.duration = "4 hours";
+        safari4.type = "Canter Safari";
+        safari4.price = 40.00;
+        safari4.getSafariInfo();
 
         ForestSafari safari5 = new ForestSafari();
-        safari5.name = "Rocky Mountain Safari";
-        safari5.location = "USA";
-        safari5.duration = "4 days";
-        safari5.type = "Adventure";
-        safari5.price = 1400.00;
-
-        System.out.println("\nSafari Name: " + safari5.name);
-        System.out.println("Location: " + safari5.location);
-        System.out.println("Duration: " + safari5.duration);
-        System.out.println("Type: " + safari5.type);
-        System.out.println("Price: $" + safari5.price);
+        safari5.name = "Kruger National Park Drive";
+        safari5.location = "Kruger National Park, South Africa";
+        safari5.duration = "Full Day";
+        safari5.type = "Self-Drive Safari";
+        safari5.price = 80.00;
+        safari5.getSafariInfo();
 
         ForestSafari safari6 = new ForestSafari();
-        safari6.name = "Borneo Rainforest Safari";
-        safari6.location = "Malaysia";
-        safari6.duration = "6 days";
-        safari6.type = "Wildlife";
-        safari6.price = 1700.00;
-
-        System.out.println("\nSafari Name: " + safari6.name);
-        System.out.println("Location: " + safari6.location);
-        System.out.println("Duration: " + safari6.duration);
-        System.out.println("Type: " + safari6.type);
-        System.out.println("Price: $" + safari6.price);
+        safari6.name = "Bandipur Jungle Safari";
+        safari6.location = "Bandipur National Park, India";
+        safari6.duration = "2.5 hours";
+        safari6.type = "Bus Safari";
+        safari6.price = 30.00;
+        safari6.getSafariInfo();
 
         ForestSafari safari7 = new ForestSafari();
-        safari7.name = "Kruger National Park Safari";
-        safari7.location = "South Africa";
-        safari7.duration = "5 days";
-        safari7.type = "Wildlife";
-        safari7.price = 1600.00;
-
-        System.out.println("\nSafari Name: " + safari7.name);
-        System.out.println("Location: " + safari7.location);
-        System.out.println("Duration: " + safari7.duration);
-        System.out.println("Type: " + safari7.type);
-        System.out.println("Price: $" + safari7.price);
+        safari7.name = "Gir Forest Lion Safari";
+        safari7.location = "Gir National Park, India";
+        safari7.duration = "3 hours";
+        safari7.type = "Jeep Safari";
+        safari7.price = 55.00;
+        safari7.getSafariInfo();
 
         ForestSafari safari8 = new ForestSafari();
-        safari8.name = "Yellowstone National Park Safari";
-        safari8.location = "USA";
-        safari8.duration = "4 days";
-        safari8.type = "Adventure";
-        safari8.price = 1500.00;
-
-        System.out.println("\nSafari Name: " + safari8.name);
-        System.out.println("Location: " + safari8.location);
-        System.out.println("Duration: " + safari8.duration);
-        System.out.println("Type: " + safari8.type);
-        System.out.println("Price: $" + safari8.price);
+        safari8.name = "Kaziranga Elephant Safari";
+        safari8.location = "Kaziranga National Park, India";
+        safari8.duration = "1 hour";
+        safari8.type = "Elephant Safari";
+        safari8.price = 25.00;
+        safari8.getSafariInfo();
 
         ForestSafari safari9 = new ForestSafari();
-        safari9.name = "Galapagos Islands Safari";
-        safari9.location = "Ecuador";
-        safari9.duration = "7 days";
-        safari9.type = "Wildlife";
-        safari9.price = 2500.00;
-
-        System.out.println("\nSafari Name: " + safari9.name);
-        System.out.println("Location: " + safari9.location);
-        System.out.println("Duration: " + safari9.duration);
-        System.out.println("Type: " + safari9.type);
-        System.out.println("Price: $" + safari9.price);
+        safari9.name = "Periyar Boat Safari";
+        safari9.location = "Periyar National Park, India";
+        safari9.duration = "2 hours";
+        safari9.type = "Boat Safari";
+        safari9.price = 20.00;
+        safari9.getSafariInfo();
 
         ForestSafari safari10 = new ForestSafari();
-        safari10.name = "Amazon River Safari";
-        safari10.location = "Brazil";
-        safari10.duration = "8 days";
-        safari10.type = "Wildlife";
-        safari10.price = 3000.00;
+        safari10.name = "Tadoba Tiger Trail";
+        safari10.location = "Tadoba Andhari Tiger Reserve, India";
+        safari10.duration = "4 hours";
+        safari10.type = "Jeep Safari";
+        safari10.price = 60.00;
+        safari10.getSafariInfo();
 
-        System.out.println("\nSafari Name: " + safari10.name);
-        System.out.println("Location: " + safari10.location);
-        System.out.println("Duration: " + safari10.duration);
-        System.out.println("Type: " + safari10.type);
-        System.out.println("Price: $" + safari10.price);
-    
         ForestSafari safari11 = new ForestSafari();
-        safari11.name = "Masai Mara Safari";
-        safari11.location = "Kenya";
-        safari11.duration = "6 days";
-        safari11.type = "Wildlife";
-        safari11.price = 2800.00;
-
-        System.out.println("\nSafari Name: " + safari11.name);
-        System.out.println("Location: " + safari11.location);
-        System.out.println("Duration: " + safari11.duration);
-        System.out.println("Type: " + safari11.type);
-        System.out.println("Price: $" + safari11.price);    
+        safari11.name = "Sundarbans Mangrove Cruise";
+        safari11.location = "Sundarbans National Park, India/Bangladesh";
+        safari11.duration = "Full Day";
+        safari11.type = "Boat Cruise";
+        safari11.price = 70.00;
+        safari11.getSafariInfo();
 
         ForestSafari safari12 = new ForestSafari();
-        safari12.name = "Patagonia Safari";
-        safari12.location = "Argentina";
-        safari12.duration = "7 days";
-        safari12.type = "Wildlife";
-        safari12.price = 2900.00;
-
-        System.out.println("\nSafari Name: " + safari12.name);
-        System.out.println("Location: " + safari12.location);
-        System.out.println("Duration: " + safari12.duration);
-        System.out.println("Type: " + safari12.type);
-        System.out.println("Price: $" + safari12.price);    
+        safari12.name = "Pench Jungle Book Safari";
+        safari12.location = "Pench National Park, India";
+        safari12.duration = "3 hours";
+        safari12.type = "Jeep Safari";
+        safari12.price = 48.00;
+        safari12.getSafariInfo();
 
         ForestSafari safari13 = new ForestSafari();
-        safari13.name = "Banff National Park Safari";
-        safari13.location = "Canada";
-        safari13.duration = "5 days";
-        safari13.type = "Adventure";
-        safari13.price = 2200.00;
-
-        System.out.println("\nSafari Name: " + safari13.name);
-        System.out.println("Location: " + safari13.location);
-        System.out.println("Duration: " + safari13.duration);
-        System.out.println("Type: " + safari13.type);
-        System.out.println("Price: $" + safari13.price);    
+        safari13.name = "Kanha Tiger Reserve Safari";
+        safari13.location = "Kanha National Park, India";
+        safari13.duration = "3.5 hours";
+        safari13.type = "Jeep Safari";
+        safari13.price = 52.00;
+        safari13.getSafariInfo();
 
         ForestSafari safari14 = new ForestSafari();
-        safari14.name = "Yosemite National Park Safari";
-        safari14.location = "USA";
-        safari14.duration = "4 days";
-        safari14.type = "Adventure";
-        safari14.price = 1500.00;
-
-        System.out.println("\nSafari Name: " + safari14.name);
-        System.out.println("Location: " + safari14.location);
-        System.out.println("Duration: " + safari14.duration);
-        System.out.println("Type: " + safari14.type);
-        System.out.println("Price: $" + safari14.price);    
+        safari14.name = "Nagarhole Wildlife Expedition";
+        safari14.location = "Nagarhole National Park, India";
+        safari14.duration = "3 hours";
+        safari14.type = "Jeep Safari";
+        safari14.price = 45.00;
+        safari14.getSafariInfo();
 
         ForestSafari safari15 = new ForestSafari();
-        safari15.name = "Great Barrier Reef Safari";
-        safari15.location = "Australia";
-        safari15.duration = "5 days";
-        safari15.type = "Marine";
-        safari15.price = 3500.00;
-
-        System.out.println("\nSafari Name: " + safari15.name);
-        System.out.println("Location: " + safari15.location);
-        System.out.println("Duration: " + safari15.duration);
-        System.out.println("Type: " + safari15.type);
-        System.out.println("Price: $" + safari15.price);
+        safari15.name = "Bhadra Wildlife Sanctuary Trek";
+        safari15.location = "Bhadra Wildlife Sanctuary, India";
+        safari15.duration = "4 hours";
+        safari15.type = "Walking Safari";
+        safari15.price = 35.00;
+        safari15.getSafariInfo();
 
         ForestSafari safari16 = new ForestSafari();
-        safari16.name = "Andes Mountains Safari";
-        safari16.location = "Chile";
-        safari16.duration = "6 days";
-        safari16.type = "Adventure";
-        safari16.price = 3200.00;
+        safari16.name = "Manas Rhino Safari";
+        safari16.location = "Manas National Park, India";
+        safari16.duration = "2 hours";
+        safari16.type = "Jeep Safari";
+        safari16.price = 42.00;
+        safari16.getSafariInfo();
 
-        System.out.println("\nSafari Name: " + safari16.name);
-        System.out.println("Location: " + safari16.location);
-        System.out.println("Duration: " + safari16.duration);
-        System.out.println("Type: " + safari16.type);
-        System.out.println("Price: $" + safari16.price);    
+        ForestSafari safari17 = new ForestSafari();
+        safari17.name = "Satpura Walking Trail";
+        safari17.location = "Satpura National Park, India";
+        safari17.duration = "Half Day";
+        safari17.type = "Walking Safari";
+        safari17.price = 65.00;
+        safari17.getSafariInfo();
+
+        ForestSafari safari18 = new ForestSafari();
+        safari18.name = "Panna Diamond Trail";
+        safari18.location = "Panna National Park, India";
+        safari18.duration = "3 hours";
+        safari18.type = "Jeep Safari";
+        safari18.price = 58.00;
+        safari18.getSafariInfo();
+
+        ForestSafari safari19 = new ForestSafari();
+        safari19.name = "Dudhwa Tiger Safari";
+        safari19.location = "Dudhwa National Park, India";
+        safari19.duration = "4 hours";
+        safari19.type = "Jeep Safari";
+        safari19.price = 53.00;
+        safari19.getSafariInfo();
+
+        ForestSafari safari20 = new ForestSafari();
+        safari20.name = "Anamalai Tiger Reserve Trek";
+        safari20.location = "Anamalai Tiger Reserve, India";
+        safari20.duration = "Full Day";
+        safari20.type = "Trekking Safari";
+        safari20.price = 75.00;
+        safari20.getSafariInfo();
+    }
 }
-}   

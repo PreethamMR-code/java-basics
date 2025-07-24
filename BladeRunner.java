@@ -3,11 +3,11 @@ public class BladeRunner {
         
 
         Blade blade1 = new Blade();
-        blade.material = "Stainless Steel";
-        blade.length = 10.5;
-        blade.width = 2.0;
-        blade.thickness = 0.1;
-        blade.sharpness = "Very Sharp";
+        blade1.material = "Stainless Steel";
+        blade1.length = 10.5;
+        blade1.width = 2.0;
+        blade1.thickness = 0.1;
+        blade1.sharpness = "Very Sharp";
 
 
         blade1.getBladeInfo();
@@ -73,12 +73,7 @@ public class BladeRunner {
         blade8.thickness = 0.1;
         blade8.sharpness = "Sharp";
 
-        System.out.println("\nBlade Details:");
-        System.out.println("Material: " + blade8.material);
-        System.out.println("Length: " + blade8.length + " inches");
-        System.out.println("Width: " + blade8.width + " inches");
-        System.out.println("Thickness: " + blade8.thickness + " inches");
-        System.out.println("Sharpness: " + blade8.sharpness);   
+        blade8.getBladeInfo();  
 
         Blade blade9 = new Blade();
         blade9.material = "Plastic";
@@ -87,12 +82,7 @@ public class BladeRunner {
         blade9.thickness = 0.05;
         blade9.sharpness = "Dull";
 
-        System.out.println("\nBlade Details:");
-        System.out.println("Material: " + blade9.material);
-        System.out.println("Length: " + blade9.length + " inches");
-        System.out.println("Width: " + blade9.width + " inches");
-        System.out.println("Thickness: " + blade9.thickness + " inches");
-        System.out.println("Sharpness: " + blade9.sharpness);   
+     blade9.getBladeInfo(); 
 
         Blade blade10 = new Blade();
         blade10.material = "Glass";
@@ -101,12 +91,7 @@ public class BladeRunner {
         blade10.thickness = 0.1;
         blade10.sharpness = "Very Dull";
 
-        System.out.println("\nBlade Details:");
-        System.out.println("Material: " + blade10.material);
-        System.out.println("Length: " + blade10.length + " inches");
-        System.out.println("Width: " + blade10.width + " inches");
-        System.out.println("Thickness: " + blade10.thickness + " inches");
-        System.out.println("Sharpness: " + blade10.sharpness);  
+     blade10.getBladeInfo();
 
         Blade blade11 = new Blade();
         blade11.material = "Wood";
@@ -115,12 +100,7 @@ public class BladeRunner {
         blade11.thickness = 0.2;
         blade11.sharpness = "Moderately Sharp";
 
-        System.out.println("\nBlade Details:");
-        System.out.println("Material: " + blade11.material);
-        System.out.println("Length: " + blade11.length + " inches");
-        System.out.println("Width: " + blade11.width + " inches");
-        System.out.println("Thickness: " + blade11.thickness + " inches");
-        System.out.println("Sharpness: " + blade11.sharpness);  
+        blade11.getBladeInfo(); 
 
         Blade blade12 = new Blade();
         blade12.material = "Rubber";
@@ -129,12 +109,7 @@ public class BladeRunner {
         blade12.thickness = 0.1;
         blade12.sharpness = "Dull";
 
-        System.out.println("\nBlade Details:");
-        System.out.println("Material: " + blade12.material);
-        System.out.println("Length: " + blade12.length + " inches");
-        System.out.println("Width: " + blade12.width + " inches");
-        System.out.println("Thickness: " + blade12.thickness + " inches");
-        System.out.println("Sharpness: " + blade12.sharpness);  
+        blade12.getBladeInfo(); 
 
         Blade blade13 = new Blade();
         blade13.material = "Ceramic Composite";
@@ -143,12 +118,7 @@ public class BladeRunner {
         blade13.thickness = 0.1;
         blade13.sharpness = "Sharp";
 
-        System.out.println("\nBlade Details:");
-        System.out.println("Material: " + blade13.material);
-        System.out.println("Length: " + blade13.length + " inches");
-        System.out.println("Width: " + blade13.width + " inches");
-        System.out.println("Thickness: " + blade13.thickness + " inches");
-        System.out.println("Sharpness: " + blade13.sharpness);          
+        blade13.getBladeInfo();         
 
         Blade blade14 = new Blade();
         blade14.material = "Zinc";
@@ -157,12 +127,7 @@ public class BladeRunner {
         blade14.thickness = 0.1;
         blade14.sharpness = "Sharp";
 
-        System.out.println("\nBlade Details:");
-        System.out.println("Material: " + blade14.material);
-        System.out.println("Length: " + blade14.length + " inches");
-        System.out.println("Width: " + blade14.width + " inches");
-        System.out.println("Thickness: " + blade14.thickness + " inches");
-        System.out.println("Sharpness: " + blade14.sharpness);      
+     blade14.getBladeInfo();      
 
         Blade blade15 = new Blade();
         blade15.material = "Nickel";
@@ -171,12 +136,7 @@ public class BladeRunner {
         blade15.thickness = 0.1;
         blade15.sharpness = "Sharp";
 
-        System.out.println("\nBlade Details:");
-        System.out.println("Material: " + blade15.material);
-        System.out.println("Length: " + blade15.length + " inches");
-        System.out.println("Width: " + blade15.width + " inches");
-        System.out.println("Thickness: " + blade15.thickness + " inches");
-        System.out.println("Sharpness: " + blade15.sharpness);  
+       blade15.getBladeInfo();
 
         Blade blade16 = new Blade();
         blade16.material = "Lead";
@@ -185,12 +145,7 @@ public class BladeRunner {
         blade16.thickness = 0.1;
         blade16.sharpness = "Dull";
 
-        System.out.println("\nBlade Details:");
-        System.out.println("Material: " + blade16.material);
-        System.out.println("Length: " + blade16.length + " inches");
-        System.out.println("Width: " + blade16.width + " inches");
-        System.out.println("Thickness: " + blade16.thickness + " inches");
-        System.out.println("Sharpness: " + blade16.sharpness);      
+       blade16.getBladeInfo();      
 
         Blade blade17 = new Blade();
         blade17.material = "Bronze";
@@ -199,12 +154,7 @@ public class BladeRunner {
         blade17.thickness = 0.1;
         blade17.sharpness = "Sharp";
 
-        System.out.println("\nBlade Details:");
-        System.out.println("Material: " + blade17.material);
-        System.out.println("Length: " + blade17.length + " inches");
-        System.out.println("Width: " + blade17.width + " inches");
-        System.out.println("Thickness: " + blade17.thickness + " inches");
-        System.out.println("Sharpness: " + blade17.sharpness);  
+        blade17.getBladeInfo(); 
 
         Blade blade18 = new Blade();
         blade18.material = "Titanium Alloy";
@@ -213,12 +163,7 @@ public class BladeRunner {
         blade18.thickness = 0.1;
         blade18.sharpness = "Sharp";
 
-        System.out.println("\nBlade Details:");
-        System.out.println("Material: " + blade18.material);
-        System.out.println("Length: " + blade18.length + " inches");
-        System.out.println("Width: " + blade18.width + " inches");
-        System.out.println("Thickness: " + blade18.thickness + " inches");
-        System.out.println("Sharpness: " + blade18.sharpness);  
+       blade18.getBladeInfo();
 
         Blade blade19 = new Blade();
         blade19.material = "Silicon";
@@ -227,11 +172,15 @@ public class BladeRunner {
         blade19.thickness = 0.1;
         blade19.sharpness = "Sharp";
 
-        System.out.println("\nBlade Details:");
-        System.out.println("Material: " + blade19.material);
-        System.out.println("Length: " + blade19.length + " inches");
-        System.out.println("Width: " + blade19.width + " inches");
-        System.out.println("Thickness: " + blade19.thickness + " inches");
-        System.out.println("Sharpness: " + blade19.sharpness);  
+        blade19.getBladeInfo(); 
+		
+		Blade blade20 = new Blade();
+        blade20.material = "copper";
+        blade20.length = 7.0;
+        blade20.width = 2.0;
+        blade20.thickness = 0.1;
+        blade20.sharpness = "Sharp";
+
+        blade20.getBladeInfo();
     }
 }

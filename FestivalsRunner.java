@@ -1,34 +1,22 @@
 public class FestivalsRunner {
     public static void main(String[] args) {
-        Festivals festival = new Festivals();
-        festival.name = "Diwali";
-        festival.location = "India";
-        festival.date = "2023-11-12";
-        festival.type = "Cultural";
-        festival.description = "Festival of Lights";
-        festival.duration = 5;
+        Festivals festival1 = new Festivals();
+        festival1.name = "Diwali";
+        festival1.location = "India";
+        festival1.date = "2023-11-12";
+        festival1.type = "Cultural";
+        festival1.description = "Festival of Lights";
+        festival1.duration = 5;
+        festival1.getFestivalInfo();
 
-        System.out.println("Festival Name: " + festival.name);
-        System.out.println("Location: " + festival.location);
-        System.out.println("Date: " + festival.date);
-        System.out.println("Type: " + festival.type);
-        System.out.println("Description: " + festival.description);
-        System.out.println("Duration: " + festival.duration + " days");
-
-        Festivals  festival2 = new Festivals();
+        Festivals festival2 = new Festivals();
         festival2.name = "Holi";
         festival2.location = "India";
         festival2.date = "2024-03-25";
         festival2.type = "Cultural";
         festival2.description = "Festival of Colors";
         festival2.duration = 2;
-
-        System.out.println("\nFestival Name: " + festival2.name);
-        System.out.println("Location: " + festival2.location);
-        System.out.println("Date: " + festival2.date);
-        System.out.println("Type: " + festival2.type);
-        System.out.println("Description: " + festival2.description);
-        System.out.println("Duration: " + festival2.duration + " days");    
+        festival2.getFestivalInfo();
 
         Festivals festival3 = new Festivals();
         festival3.name = "Christmas";
@@ -37,28 +25,16 @@ public class FestivalsRunner {
         festival3.type = "Cultural";
         festival3.description = "Celebration of the Birth of Jesus Christ";
         festival3.duration = 1;
-
-        System.out.println("\nFestival Name: " + festival3.name);
-        System.out.println("Location: " + festival3.location);
-        System.out.println("Date: " + festival3.date);
-        System.out.println("Type: " + festival3.type);
-        System.out.println("Description: " + festival3.description);
-        System.out.println("Duration: " + festival3.duration + " days");    
+        festival3.getFestivalInfo();
 
         Festivals festival4 = new Festivals();
-        festival4.name = "Eid";
+        festival4.name = "Eid al-Fitr";
         festival4.location = "Middle East";
         festival4.date = "2024-04-10";
         festival4.type = "Religious";
         festival4.description = "Celebration of the End of Ramadan";
         festival4.duration = 3;
-
-        System.out.println("\nFestival Name: " + festival4.name);
-        System.out.println("Location: " + festival4.location);
-        System.out.println("Date: " + festival4.date);
-        System.out.println("Type: " + festival4.type);
-        System.out.println("Description: " + festival4.description);
-        System.out.println("Duration: " + festival4.duration + " days");        
+        festival4.getFestivalInfo();
 
         Festivals festival5 = new Festivals();
         festival5.name = "Thanksgiving";
@@ -67,28 +43,16 @@ public class FestivalsRunner {
         festival5.type = "Cultural";
         festival5.description = "Celebration of Harvest and Blessings";
         festival5.duration = 1;
-
-        System.out.println("\nFestival Name: " + festival5.name);
-        System.out.println("Location: " + festival5.location);
-        System.out.println("Date: " + festival5.date);
-        System.out.println("Type: " + festival5.type);
-        System.out.println("Description: " + festival5.description);
-        System.out.println("Duration: " + festival5.duration + " days");    
+        festival5.getFestivalInfo();
 
         Festivals festival6 = new Festivals();
-        festival6.name = "New Year";
+        festival6.name = "New Year's Day";
         festival6.location = "Worldwide";
         festival6.date = "2024-01-01";
         festival6.type = "Cultural";
         festival6.description = "Celebration of the New Year";
         festival6.duration = 1;
-
-        System.out.println("\nFestival Name: " + festival6.name);
-        System.out.println("Location: " + festival6.location);
-        System.out.println("Date: " + festival6.date);
-        System.out.println("Type: " + festival6.type);
-        System.out.println("Description: " + festival6.description);
-        System.out.println("Duration: " + festival6.duration + " days");    
+        festival6.getFestivalInfo();
 
         Festivals festival7 = new Festivals();
         festival7.name = "Easter";
@@ -97,13 +61,7 @@ public class FestivalsRunner {
         festival7.type = "Religious";
         festival7.description = "Celebration of the Resurrection of Jesus Christ";
         festival7.duration = 1;
-
-        System.out.println("\nFestival Name: " + festival7.name);
-        System.out.println("Location: " + festival7.location);
-        System.out.println("Date: " + festival7.date);
-        System.out.println("Type: " + festival7.type);
-        System.out.println("Description: " + festival7.description);
-        System.out.println("Duration: " + festival7.duration + " days");    
+        festival7.getFestivalInfo();
 
         Festivals festival8 = new Festivals();
         festival8.name = "Chinese New Year";
@@ -112,13 +70,7 @@ public class FestivalsRunner {
         festival8.type = "Cultural";
         festival8.description = "Celebration of the Lunar New Year";
         festival8.duration = 15;
-
-        System.out.println("\nFestival Name: " + festival8.name);
-        System.out.println("Location: " + festival8.location);
-        System.out.println("Date: " + festival8.date);
-        System.out.println("Type: " + festival8.type);
-        System.out.println("Description: " + festival8.description);
-        System.out.println("Duration: " + festival8.duration + " days");    
+        festival8.getFestivalInfo();
 
         Festivals festival9 = new Festivals();
         festival9.name = "Oktoberfest";
@@ -127,13 +79,7 @@ public class FestivalsRunner {
         festival9.type = "Cultural";
         festival9.description = "World's largest Volksfest (beer festival)";
         festival9.duration = 16;
-
-        System.out.println("\nFestival Name: " + festival9.name);
-        System.out.println("Location: " + festival9.location);
-        System.out.println("Date: " + festival9.date);
-        System.out.println("Type: " + festival9.type);
-        System.out.println("Description: " + festival9.description);
-        System.out.println("Duration: " + festival9.duration + " days");        
+        festival9.getFestivalInfo();
 
         Festivals festival10 = new Festivals();
         festival10.name = "Carnival";
@@ -142,13 +88,7 @@ public class FestivalsRunner {
         festival10.type = "Cultural";
         festival10.description = "Famous festival held before Lent";
         festival10.duration = 5;
-
-        System.out.println("\nFestival Name: " + festival10.name);
-        System.out.println("Location: " + festival10.location);
-        System.out.println("Date: " + festival10.date);
-        System.out.println("Type: " + festival10.type);
-        System.out.println("Description: " + festival10.description);
-        System.out.println("Duration: " + festival10.duration + " days");   
+        festival10.getFestivalInfo();
 
         Festivals festival11 = new Festivals();
         festival11.name = "Mardi Gras";
@@ -157,59 +97,89 @@ public class FestivalsRunner {
         festival11.type = "Cultural";
         festival11.description = "Famous festival held before Lent";
         festival11.duration = 5;
-
-        System.out.println("\nFestival Name: " + festival11.name);
-        System.out.println("Location: " + festival11.location);
-        System.out.println("Date: " + festival11.date);
-        System.out.println("Type: " + festival11.type);
-        System.out.println("Description: " + festival11.description);
-        System.out.println("Duration: " + festival11.duration + " days");   
+        festival11.getFestivalInfo();
 
         Festivals festival12 = new Festivals();
         festival12.name = "Songkran";
         festival12.location = "Thailand";
         festival12.date = "2024-04-13";
         festival12.type = "Cultural";
-        festival12.description = "Thai New Year festival";
+        festival12.description = "Thai New Year festival (Water Festival)";
         festival12.duration = 3;
-
-        System.out.println("\nFestival Name: " + festival12.name);
-        System.out.println("Location: " + festival12.location);
-        System.out.println("Date: " + festival12.date);
-        System.out.println("Type: " + festival12.type);
-        System.out.println("Description: " + festival12.description);
-        System.out.println("Duration: " + festival12.duration + " days");   
+        festival12.getFestivalInfo();
 
         Festivals festival13 = new Festivals();
-        festival13.name = "Diwali";
-        festival13.location = "India";
-        festival13.date = "2024-11-01";
-        festival13.type = "Cultural";
-        festival13.description = "Festival of Lights";
-        festival13.duration = 5;
-
-        System.out.println("\nFestival Name: " + festival13.name);
-        System.out.println("Location: " + festival13.location);
-        System.out.println("Date: " + festival13.date);
-        System.out.println("Type: " + festival13.type);
-        System.out.println("Description: " + festival13.description);
-        System.out.println("Duration: " + festival13.duration + " days");   
+        festival13.name = "Hanukkah";
+        festival13.location = "Worldwide";
+        festival13.date = "2024-12-25"; 
+        festival13.type = "Religious";
+        festival13.description = "Jewish Festival of Lights";
+        festival13.duration = 8;
+        festival13.getFestivalInfo();
 
         Festivals festival14 = new Festivals();
         festival14.name = "Ramadan";
-        festival14.location = "Middle East";
-        festival14.date = "2024-03-10";
+        festival14.location = "Worldwide";
+        festival14.date = "2024-03-10"; 
         festival14.type = "Religious";
         festival14.description = "Islamic holy month of fasting";
         festival14.duration = 30;
+        festival14.getFestivalInfo();
 
-        System.out.println("\nFestival Name: " + festival14.name);
-        System.out.println("Location: " + festival14.location);
-        System.out.println("Date: " + festival14.date);
-        System.out.println("Type: " + festival14.type);
-        System.out.println("Description: " + festival14.description);
-        System.out.println("Duration: " + festival14.duration + " days");   
+        Festivals festival15 = new Festivals();
+        festival15.name = "St. Patrick's Day";
+        festival15.location = "Ireland";
+        festival15.date = "2024-03-17";
+        festival15.type = "Cultural";
+        festival15.description = "Celebration of Irish heritage and culture";
+        festival15.duration = 1;
+        festival15.getFestivalInfo();
 
-        
+        Festivals festival16 = new Festivals();
+        festival16.name = "Day of the Dead";
+        festival16.location = "Mexico";
+        festival16.date = "2024-11-01";
+        festival16.type = "Cultural";
+        festival16.description = "Celebration of deceased loved ones";
+        festival16.duration = 2;
+        festival16.getFestivalInfo();
+
+        Festivals festival17 = new Festivals();
+        festival17.name = "Vesak";
+        festival17.location = "Asia";
+        festival17.date = "2024-05-23"; 
+        festival17.type = "Religious";
+        festival17.description = "Celebration of Buddha's birth, enlightenment, and passing";
+        festival17.duration = 1;
+        festival17.getFestivalInfo();
+
+        Festivals festival18 = new Festivals();
+        festival18.name = "Kwanzaa";
+        festival18.location = "USA";
+        festival18.date = "2024-12-26";
+        festival18.type = "Cultural";
+        festival18.description = "Celebration of African-American heritage";
+        festival18.duration = 7;
+        festival18.getFestivalInfo();
+
+        Festivals festival19 = new Festivals();
+        festival19.name = "Cherry Blossom Festival";
+        festival19.location = "Japan";
+        festival19.date = "2024-03-20"; 
+        festival19.type = "Nature/Cultural";
+        festival19.description = "Celebration of blossoms";
+        festival19.duration = 14;
+        festival19.getFestivalInfo();
+		
+		Festivals festival20 = new Festivals();
+        festival20.name = "Halloween";
+        festival20.location = "Worldwide";
+        festival20.date = "2024-10-31";
+        festival20.type = "Cultural";
+        festival20.description = "Celebration with costumes";
+        festival20.duration = 1;
+        festival20.getFestivalInfo();
+    }
+}
     }
 }

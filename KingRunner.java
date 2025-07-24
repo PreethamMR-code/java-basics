@@ -3,212 +3,182 @@ public class KingRunner {
 
         King k1 = new King();
         k1.name = "Ashoka";
+        k1.dynasty = "Maurya Dynasty";
+        k1.reignYears = 36;
         k1.kingdom = "Maurya Empire";
-        k1.reignStart = 268;
-        k1.reignEnd = 232;
+        k1.spouse = "Devi, Karuvaki";
         k1.knownFor = "Spreading Buddhism";
-
-        System.out.println("\nKing Details:");
-        System.out.println("Name: " + k1.name);
-        System.out.println("Kingdom: " + k1.kingdom);
-        System.out.println("Reign Start: " + k1.reignStart + " BC");
-        System.out.println("Reign End: " + k1.reignEnd + " BC");
-        System.out.println("Known For: " + k1.knownFor);
+        k1.getKingInfo();
 
         King k2 = new King();
         k2.name = "Akbar";
+        k2.dynasty = "Mughal Dynasty";
+        k2.reignYears = 49;
         k2.kingdom = "Mughal Empire";
-        k2.reignStart = 1556;
-        k2.reignEnd = 1605;
+        k2.spouse = "Jodha Bai";
         k2.knownFor = "Religious tolerance";
-
-        System.out.println("\nKing Details:");
-        System.out.println("Name: " + k2.name);
-        System.out.println("Kingdom: " + k2.kingdom);
-        System.out.println("Reign Start: " + k2.reignStart);
-        System.out.println("Reign End: " + k2.reignEnd);
-        System.out.println("Known For: " + k2.knownFor);
+        k2.getKingInfo();
 
         King k3 = new King();
         k3.name = "Chandragupta Maurya";
+        k3.dynasty = "Maurya Dynasty";
+        k3.reignYears = 24;
         k3.kingdom = "Maurya Empire";
-        k3.reignStart = 321;
-        k3.reignEnd = 297;
+        k3.spouse = "Durandhara";
         k3.knownFor = "Founder of Maurya Empire";
-
-        System.out.println("\nKing Details:");
-        System.out.println("Name: " + k3.name);
-        System.out.println("Kingdom: " + k3.kingdom);
-        System.out.println("Reign Start: " + k3.reignStart + " BC");
-        System.out.println("Reign End: " + k3.reignEnd + " BC");
-        System.out.println("Known For: " + k3.knownFor);
+        k3.getKingInfo();
 
         King k4 = new King();
-        k4.name = "Raja Raja Chola";
+        k4.name = "Raja Raja Chola I";
+        k4.dynasty = "Chola Dynasty";
+        k4.reignYears = 29;
         k4.kingdom = "Chola Dynasty";
-        k4.reignStart = 985;
-        k4.reignEnd = 1014;
-        k4.knownFor = "Great conqueror";
-
-        System.out.println("\nKing Details:");
-        System.out.println("Name: " + k4.name);
-        System.out.println("Kingdom: " + k4.kingdom);
-        System.out.println("Reign Start: " + k4.reignStart);
-        System.out.println("Reign End: " + k4.reignEnd);
-        System.out.println("Known For: " + k4.knownFor);
+        k4.spouse = "Vanavan Mahadevi";
+        k4.knownFor = "Great conqueror and builder of Brihadeeswarar Temple";
+        k4.getKingInfo();
 
         King k5 = new King();
         k5.name = "Krishnadevaraya";
+        k5.dynasty = "Tuluva Dynasty";
+        k5.reignYears = 20;
         k5.kingdom = "Vijayanagara Empire";
-        k5.reignStart = 1509;
-        k5.reignEnd = 1529;
-        k5.knownFor = "Patron of literature";
-
-        System.out.println("\nKing Details:");
-        System.out.println("Name: " + k5.name);
-        System.out.println("Kingdom: " + k5.kingdom);
-        System.out.println("Reign Start: " + k5.reignStart);
-        System.out.println("Reign End: " + k5.reignEnd);
-        System.out.println("Known For: " + k5.knownFor);
+        k5.spouse = "Tirumaladevi";
+        k5.knownFor = "Patron of literature and art, Golden Age of Vijayanagara";
+        k5.getKingInfo();
 
         King k6 = new King();
         k6.name = "Harsha";
-        k6.kingdom = "Pushyabhuti Dynasty";
-        k6.reignStart = 606;
-        k6.reignEnd = 647;
-        k6.knownFor = "Unifier of northern India";
-
-        System.out.println("\nKing Details:");
-        System.out.println("Name: " + k6.name);
-        System.out.println("Kingdom: " + k6.kingdom);
-        System.out.println("Reign Start: " + k6.reignStart);
-        System.out.println("Reign End: " + k6.reignEnd);
-        System.out.println("Known For: " + k6.knownFor);
+        k6.dynasty = "Pushyabhuti Dynasty";
+        k6.reignYears = 42;
+        k6.kingdom = "Vardhana Empire";
+        k6.spouse = "Durgavati";
+        k6.knownFor = "Unifier of Northern India";
+        k6.getKingInfo();
 
         King k7 = new King();
         k7.name = "Bimbisara";
-        k7.kingdom = "Haryanka Dynasty";
-        k7.reignStart = 544;
-        k7.reignEnd = 492;
-        k7.knownFor = "First powerful king of Magadha";
-
-        System.out.println("\nKing Details:");
-        System.out.println("Name: " + k7.name);
-        System.out.println("Kingdom: " + k7.kingdom);
-        System.out.println("Reign Start: " + k7.reignStart + " BC");
-        System.out.println("Reign End: " + k7.reignEnd + " BC");
-        System.out.println("Known For: " + k7.knownFor);
+        k7.dynasty = "Haryanka Dynasty";
+        k7.reignYears = 52;
+        k7.kingdom = "Magadha";
+        k7.spouse = "Kosala Devi";
+        k7.knownFor = "First powerful king of Magadha, patron of Buddhism";
+        k7.getKingInfo();
 
         King k8 = new King();
         k8.name = "Ranjit Singh";
+        k8.dynasty = "Sikh Empire";
+        k8.reignYears = 38;
         k8.kingdom = "Sikh Empire";
-        k8.reignStart = 1801;
-        k8.reignEnd = 1839;
-        k8.knownFor = "Sher-e-Punjab";
-
-        System.out.println("\nKing Details:");
-        System.out.println("Name: " + k8.name);
-        System.out.println("Kingdom: " + k8.kingdom);
-        System.out.println("Reign Start: " + k8.reignStart);
-        System.out.println("Reign End: " + k8.reignEnd);
-        System.out.println("Known For: " + k8.knownFor);
+        k8.spouse = "Mahtab Kaur";
+        k8.knownFor = "Founder of the Sikh Empire, Sher-e-Punjab";
+        k8.getKingInfo();
 
         King k9 = new King();
         k9.name = "Prithviraj Chauhan";
-        k9.kingdom = "Chahamanas";
-        k9.reignStart = 1178;
-        k9.reignEnd = 1192;
-        k9.knownFor = "Battle of Tarain";
-
-        System.out.println("\nKing Details:");
-        System.out.println("Name: " + k9.name);
-        System.out.println("Kingdom: " + k9.kingdom);
-        System.out.println("Reign Start: " + k9.reignStart);
-        System.out.println("Reign End: " + k9.reignEnd);
-        System.out.println("Known For: " + k9.knownFor);
+        k9.dynasty = "Chahamana Dynasty";
+        k9.reignYears = 14;
+        k9.kingdom = "Ajmer and Delhi";
+        k9.spouse = "Samyukta";
+        k9.knownFor = "Heroic resistance against Ghorids";
+        k9.getKingInfo();
 
         King k10 = new King();
         k10.name = "Tipu Sultan";
+        k10.dynasty = "Mysore Dynasty";
+        k10.reignYears = 17;
         k10.kingdom = "Mysore Kingdom";
-        k10.reignStart = 1782;
-        k10.reignEnd = 1799;
-        k10.knownFor = "Fought British";
-
-        System.out.println("\nKing Details:");
-        System.out.println("Name: " + k10.name);
-        System.out.println("Kingdom: " + k10.kingdom);
-        System.out.println("Reign Start: " + k10.reignStart);
-        System.out.println("Reign End: " + k10.reignEnd);
-        System.out.println("Known For: " + k10.knownFor);
+        k10.spouse = "Ruqaiya Banu";
+        k10.knownFor = "Innovator in military technology, fought British";
+        k10.getKingInfo();
 
         King k11 = new King();
         k11.name = "Jayachandra";
-        k11.kingdom = "Gahadavala Dynasty";
-        k11.reignStart = 1170;
-        k11.reignEnd = 1194;
-        k11.knownFor = "Rival of Prithviraj";
-
-        System.out.println("\nKing Details:");
-        System.out.println("Name: " + k11.name);
-        System.out.println("Kingdom: " + k11.kingdom);
-        System.out.println("Reign Start: " + k11.reignStart);
-        System.out.println("Reign End: " + k11.reignEnd);
-        System.out.println("Known For: " + k11.knownFor);
+        k11.dynasty = "Gahadavala Dynasty";
+        k11.reignYears = 25;
+        k11.kingdom = "Kannauj";
+        k11.spouse = "Unkown";
+        k11.knownFor = "Rival of Prithviraj Chauhan";
+        k11.getKingInfo();
 
         King k12 = new King();
         k12.name = "Samudragupta";
+        k12.dynasty = "Gupta Dynasty";
+        k12.reignYears = 40;
         k12.kingdom = "Gupta Empire";
-        k12.reignStart = 335;
-        k12.reignEnd = 375;
-        k12.knownFor = "Great military ruler";
-
-        System.out.println("\nKing Details:");
-        System.out.println("Name: " + k12.name);
-        System.out.println("Kingdom: " + k12.kingdom);
-        System.out.println("Reign Start: " + k12.reignStart);
-        System.out.println("Reign End: " + k12.reignEnd);
-        System.out.println("Known For: " + k12.knownFor);
+        k12.spouse = "Dattadevi";
+        k12.knownFor = "Great military conqueror, 'Napoleon of India'";
+        k12.getKingInfo();
 
         King k13 = new King();
         k13.name = "Pulakeshin II";
-        k13.kingdom = "Chalukya Dynasty";
-        k13.reignStart = 610;
-        k13.reignEnd = 642;
-        k13.knownFor = "Resisted Harsha";
-
-        System.out.println("\nKing Details:");
-        System.out.println("Name: " + k13.name);
-        System.out.println("Kingdom: " + k13.kingdom);
-        System.out.println("Reign Start: " + k13.reignStart);
-        System.out.println("Reign End: " + k13.reignEnd);
-        System.out.println("Known For: " + k13.knownFor);
+        k13.dynasty = "Chalukya Dynasty";
+        k13.reignYears = 33;
+        k13.kingdom = "Badami Chalukya";
+        k13.spouse = "Unkown";
+        k13.knownFor = "Defeating Emperor Harsha";
+        k13.getKingInfo();
 
         King k14 = new King();
         k14.name = "Vikramaditya";
+        k14.dynasty = "Legendary/Various";
+        k14.reignYears = 20;
         k14.kingdom = "Ujjain";
-        k14.reignStart = 1;
-        k14.reignEnd = 20;
-        k14.knownFor = "Golden Age";
-
-        System.out.println("\nKing Details:");
-        System.out.println("Name: " + k14.name);
-        System.out.println("Kingdom: " + k14.kingdom);
-        System.out.println("Reign Start: " + k14.reignStart);
-        System.out.println("Reign End: " + k14.reignEnd);
-        System.out.println("Known For: " + k14.knownFor);
+        k14.spouse = "Unkown";
+        k14.knownFor = "Patron of arts and sciences, associated with Golden Age";
+        k14.getKingInfo();
 
         King k15 = new King();
         k15.name = "Shivaji Maharaj";
+        k15.dynasty = "Maratha Dynasty";
+        k15.reignYears = 6;
         k15.kingdom = "Maratha Empire";
-        k15.reignStart = 1674;
-        k15.reignEnd = 1680;
-        k15.knownFor = "Founder of Maratha Empire";
+        k15.spouse = "Saibai";
+        k15.knownFor = "Founder of the Maratha Empire";
+        k15.getKingInfo();
 
-        System.out.println("\nKing Details:");
-        System.out.println("Name: " + k15.name);
-        System.out.println("Kingdom: " + k15.kingdom);
-        System.out.println("Reign Start: " + k15.reignStart);
-        System.out.println("Reign End: " + k15.reignEnd);
-        System.out.println("Known For: " + k15.knownFor);
+        King k16 = new King();
+        k16.name = "Maharana Pratap";
+        k16.dynasty = "Sisodia Dynasty";
+        k16.reignYears = 24;
+        k16.kingdom = "Mewar";
+        k16.spouse = "Ajabde Punwar";
+        k16.knownFor = "Resistance against Mughal Empire";
+        k16.getKingInfo();
+
+        King k17 = new King();
+        k17.name = "Porus";
+        k17.dynasty = "Pauravas";
+        k17.reignYears = 0;
+        k17.kingdom = "Paurava Kingdom";
+        k17.spouse = "Unkown";
+        k17.knownFor = "Battle with Alexander the Great";
+        k17.getKingInfo();
+
+        King k18 = new King();
+        k18.name = "Alauddin Khalji";
+        k18.dynasty = "Khalji Dynasty";
+        k18.reignYears = 20;
+        k18.kingdom = "Delhi Sultanate";
+        k18.spouse = "Mahru";
+        k18.knownFor = "Market reforms and military conquests";
+        k18.getKingInfo();
+
+        King k19 = new King();
+        k19.name = "Bindusara";
+        k19.dynasty = "Maurya Dynasty";
+        k19.reignYears = 28;
+        k19.kingdom = "Maurya Empire";
+        k19.spouse = "Subhadrangi";
+        k19.knownFor = "Expanding the Maurya Empire";
+        k19.getKingInfo();
+
+        King k20 = new King();
+        k20.name = "Hemu";
+        k20.dynasty = "Sur Dynasty (briefly)";
+        k20.reignYears = 0;
+        k20.kingdom = "North India";
+        k20.spouse = "Unkown";
+        k20.knownFor = "Battle of Panipat (Second)";
+        k20.getKingInfo();
     }
 }
