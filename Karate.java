@@ -1,12 +1,28 @@
-public class Karate {
+class Karate {
     String style;
-    int level; 
-    String beltLevel; 
-    String belt; 
+    int level;
+    String beltLevel;
+    String belt;
     String dojoName;
     String instructor;
     int experienceYears;
-    String origin; 
+    String origin;
+
+    Karate(){
+        System.out.println("Karate constructor is invoked");
+    }
+
+    Karate(String style, int level, String beltLevel, String belt, String dojoName, String instructor, int experienceYears, String origin){
+        System.out.println("Karate parameterized constructor is invoked");
+        this.style = style;
+        this.level = level;
+        this.beltLevel = beltLevel;
+        this.belt = belt;
+        this.dojoName = dojoName;
+        this.instructor = instructor;
+        this.experienceYears = experienceYears;
+        this.origin = origin;
+    }
 
     public void getKarateInfo() {
         System.out.println("\nKarate Details:");

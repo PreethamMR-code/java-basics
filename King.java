@@ -1,10 +1,24 @@
-public class King {
+lass King {
     String name;
     String dynasty;
     int reignYears;
     String kingdom;
     String spouse;
     String knownFor;
+
+    King(){
+        System.out.println("King constructor is invoked");
+    }
+
+    King(String name, String dynasty, int reignYears, String kingdom, String spouse, String knownFor){
+        System.out.println("King parameterized constructor is invoked");
+        this.name = name;
+        this.dynasty = dynasty;
+        this.reignYears = reignYears;
+        this.kingdom = kingdom;
+        this.spouse = spouse;
+        this.knownFor = knownFor;
+    }
 
     public void getKingInfo() {
         System.out.println("\nKing Details:");

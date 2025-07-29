@@ -1,203 +1,203 @@
 public class GymEquipmentsRunner {
     public static void main(String[] args) {
-        GymEquipments equipment = new GymEquipments();
-        equipment.equipmentName = "Treadmill";
+        GymEquipments equipment = new GymEquipments("Treadmill", "FitPro", 799.99, "Cardio", "Steel", 120.5, "Black");
+        /*equipment.equipmentName = "Treadmill";
         equipment.brand = "FitPro";
         equipment.price = 799.99;
         equipment.type = "Cardio";
         equipment.material = "Steel";
         equipment.weight = 120.5;
-        equipment.color = "Black";
+        equipment.color = "Black";*/
         equipment.getGymEquipmentsInfo();
 
-        GymEquipments equipment2 = new GymEquipments();
-        equipment2.equipmentName = "Dumbbell Set";
+        GymEquipments equipment2 = new GymEquipments("Dumbbell Set", "PowerMax", 299.99, "Strength", "Cast Iron", 30.0, "Gray");
+        /*equipment2.equipmentName = "Dumbbell Set";
         equipment2.brand = "PowerMax";
         equipment2.price = 299.99;
         equipment2.type = "Strength";
         equipment2.material = "Cast Iron";
         equipment2.weight = 30.0;
-        equipment2.color = "Gray";
+        equipment2.color = "Gray";*/
         equipment2.getGymEquipmentsInfo();
 
-        GymEquipments equipment3 = new GymEquipments();
-        equipment3.equipmentName = "Exercise Bike";
+        GymEquipments equipment3 = new GymEquipments("Exercise Bike", "CyclePro", 499.99, "Cardio", "Aluminum", 35.0, "Red");
+        /*equipment3.equipmentName = "Exercise Bike";
         equipment3.brand = "CyclePro";
         equipment3.price = 499.99;
         equipment3.type = "Cardio";
         equipment3.material = "Aluminum";
         equipment3.weight = 35.0;
-        equipment3.color = "Red";
+        equipment3.color = "Red";*/
         equipment3.getGymEquipmentsInfo();
 
-        GymEquipments equipment4 = new GymEquipments();
-        equipment4.equipmentName = "Yoga Mat";
+        GymEquipments equipment4 = new GymEquipments("Yoga Mat", "ZenYoga", 49.99, "Yoga", "PVC", 1.0, "Purple");
+        /*equipment4.equipmentName = "Yoga Mat";
         equipment4.brand = "ZenYoga";
         equipment4.price = 49.99;
         equipment4.type = "Yoga";
         equipment4.material = "PVC";
         equipment4.weight = 1.0;
-        equipment4.color = "Purple";
+        equipment4.color = "Purple";*/
         equipment4.getGymEquipmentsInfo();
 
-        GymEquipments equipment5 = new GymEquipments();
-        equipment5.equipmentName = "Kettlebell";
+        GymEquipments equipment5 = new GymEquipments("Kettlebell", "IronGrip", 89.99, "Strength", "Cast Iron", 12.0, "Black");
+        /*equipment5.equipmentName = "Kettlebell";
         equipment5.brand = "IronGrip";
         equipment5.price = 89.99;
         equipment5.type = "Strength";
         equipment5.material = "Cast Iron";
         equipment5.weight = 12.0;
-        equipment5.color = "Black";
+        equipment5.color = "Black";*/
         equipment5.getGymEquipmentsInfo();
 
-        GymEquipments equipment6 = new GymEquipments();
-        equipment6.equipmentName = "Resistance Bands";
+        GymEquipments equipment6 = new GymEquipments("Resistance Bands", "FlexFit", 29.99, "Strength", "Latex", 0.5, "Green");
+        /*equipment6.equipmentName = "Resistance Bands";
         equipment6.brand = "FlexFit";
         equipment6.price = 29.99;
         equipment6.type = "Strength";
         equipment6.material = "Latex";
         equipment6.weight = 0.5;
-        equipment6.color = "Green";
+        equipment6.color = "Green";*/
         equipment6.getGymEquipmentsInfo();
 
-        GymEquipments equipment7 = new GymEquipments();
-        equipment7.equipmentName = "Jump Rope";
+        GymEquipments equipment7 = new GymEquipments("Jump Rope", "SpeedRope", 19.99, "Cardio", "PVC", 0.3, "Blue");
+        /*equipment7.equipmentName = "Jump Rope";
         equipment7.brand = "SpeedRope";
         equipment7.price = 19.99;
         equipment7.type = "Cardio";
         equipment7.material = "PVC";
         equipment7.weight = 0.3;
-        equipment7.color = "Blue";
+        equipment7.color = "Blue";*/
         equipment7.getGymEquipmentsInfo();
 
-        GymEquipments equipment8 = new GymEquipments();
-        equipment8.equipmentName = "Foam Roller";
+        GymEquipments equipment8 = new GymEquipments("Foam Roller", "TriggerPoint", 39.99, "Recovery", "EVA Foam", 0.5, "Black");
+        /*equipment8.equipmentName = "Foam Roller";
         equipment8.brand = "TriggerPoint";
         equipment8.price = 39.99;
         equipment8.type = "Recovery";
         equipment8.material = "EVA Foam";
         equipment8.weight = 0.5;
-        equipment8.color = "Black";
+        equipment8.color = "Black";*/
         equipment8.getGymEquipmentsInfo();
 
-        GymEquipments equipment9 = new GymEquipments();
-        equipment9.equipmentName = "Medicine Ball";
+        GymEquipments equipment9 = new GymEquipments("Medicine Ball", "ProForm", 49.99, "Strength", "Rubber", 5.0, "Red");
+        /*equipment9.equipmentName = "Medicine Ball";
         equipment9.brand = "ProForm";
         equipment9.price = 49.99;
         equipment9.type = "Strength";
         equipment9.material = "Rubber";
         equipment9.weight = 5.0;
-        equipment9.color = "Red";
+        equipment9.color = "Red";*/
         equipment9.getGymEquipmentsInfo();
 
-        GymEquipments equipment10 = new GymEquipments();
-        equipment10.equipmentName = "Pull-Up Bar";
+        GymEquipments equipment10 = new GymEquipments("Pull-Up Bar", "IronGym", 39.99, "Strength", "Steel", 3.0, "Black");
+        /*equipment10.equipmentName = "Pull-Up Bar";
         equipment10.brand = "IronGym";
         equipment10.price = 39.99;
         equipment10.type = "Strength";
         equipment10.material = "Steel";
         equipment10.weight = 3.0;
-        equipment10.color = "Black";
+        equipment10.color = "Black";*/
         equipment10.getGymEquipmentsInfo();
 
-        GymEquipments equipment11 = new GymEquipments();
-        equipment11.equipmentName = "Barbell Set";
+        GymEquipments equipment11 = new GymEquipments("Barbell Set", "BodySolid", 299.99, "Strength", "Steel", 50.0, "Chrome");
+        /*equipment11.equipmentName = "Barbell Set";
         equipment11.brand = "BodySolid";
         equipment11.price = 299.99;
         equipment11.type = "Strength";
         equipment11.material = "Steel";
         equipment11.weight = 50.0;
-        equipment11.color = "Chrome";
+        equipment11.color = "Chrome";*/
         equipment11.getGymEquipmentsInfo();
 
-        GymEquipments equipment12 = new GymEquipments();
-        equipment12.equipmentName = "Balance Board";
+        GymEquipments equipment12 = new GymEquipments("Balance Board", "BOSU", 129.99, "Balance", "Rubber", 2.0, "Blue");
+        /*equipment12.equipmentName = "Balance Board";
         equipment12.brand = "BOSU";
         equipment12.price = 129.99;
         equipment12.type = "Balance";
         equipment12.material = "Rubber";
         equipment12.weight = 2.0;
-        equipment12.color = "Blue";
+        equipment12.color = "Blue";*/
         equipment12.getGymEquipmentsInfo();
 
-        GymEquipments equipment13 = new GymEquipments();
-        equipment13.equipmentName = "Ab Roller";
+        GymEquipments equipment13 = new GymEquipments("Ab Roller", "Perfect Fitness", 29.99, "Core", "Plastic", 1.5, "Black");
+        /*equipment13.equipmentName = "Ab Roller";
         equipment13.brand = "Perfect Fitness";
         equipment13.price = 29.99;
         equipment13.type = "Core";
         equipment13.material = "Plastic";
         equipment13.weight = 1.5;
-        equipment13.color = "Black";
+        equipment13.color = "Black";*/
         equipment13.getGymEquipmentsInfo();
 
-        GymEquipments equipment14 = new GymEquipments();
-        equipment14.equipmentName = "Battle Ropes";
+        GymEquipments equipment14 = new GymEquipments("Battle Ropes", "ProForm", 79.99, "Strength", "Nylon", 10.0, "Black");
+        /*equipment14.equipmentName = "Battle Ropes";
         equipment14.brand = "ProForm";
         equipment14.price = 79.99;
         equipment14.type = "Strength";
         equipment14.material = "Nylon";
         equipment14.weight = 10.0;
-        equipment14.color = "Black";
+        equipment14.color = "Black";*/
         equipment14.getGymEquipmentsInfo();
 
-        GymEquipments equipment15 = new GymEquipments();
-        equipment15.equipmentName = "Slam Ball";
+        GymEquipments equipment15 = new GymEquipments("Slam Ball", "Rage Fitness", 49.99, "Strength", "Rubber", 5.0, "Black");
+        /*equipment15.equipmentName = "Slam Ball";
         equipment15.brand = "Rage Fitness";
         equipment15.price = 49.99;
         equipment15.type = "Strength";
         equipment15.material = "Rubber";
         equipment15.weight = 5.0;
-        equipment15.color = "Black";
+        equipment15.color = "Black";*/
         equipment15.getGymEquipmentsInfo();
 
-        GymEquipments equipment16 = new GymEquipments();
-        equipment16.equipmentName = "Weighted Vest";
+        GymEquipments equipment16 = new GymEquipments("Weighted Vest", "Hyperwear", 119.99, "Strength", "Neoprene", 5.0, "Gray");
+        /*equipment16.equipmentName = "Weighted Vest";
         equipment16.brand = "Hyperwear";
         equipment16.price = 119.99;
         equipment16.type = "Strength";
         equipment16.material = "Neoprene";
         equipment16.weight = 5.0;
-        equipment16.color = "Gray";
+        equipment16.color = "Gray";*/
         equipment16.getGymEquipmentsInfo();
 
-        GymEquipments equipment17 = new GymEquipments();
-        equipment17.equipmentName = "Agility Ladder";
+        GymEquipments equipment17 = new GymEquipments("Agility Ladder", "ProForm", 39.99, "Cardio", "Nylon", 2.0, "Black");
+        /*equipment17.equipmentName = "Agility Ladder";
         equipment17.brand = "ProForm";
         equipment17.price = 39.99;
         equipment17.type = "Cardio";
         equipment17.material = "Nylon";
         equipment17.weight = 2.0;
-        equipment17.color = "Black";
+        equipment17.color = "Black";*/
         equipment17.getGymEquipmentsInfo();
 
-        GymEquipments equipment18 = new GymEquipments();
-        equipment18.equipmentName = "Speed Parachute";
+        GymEquipments equipment18 = new GymEquipments("Speed Parachute", "ProForm", 29.99, "Cardio", "Nylon", 1.0, "Black");
+        /*equipment18.equipmentName = "Speed Parachute";
         equipment18.brand = "ProForm";
         equipment18.price = 29.99;
         equipment18.type = "Cardio";
         equipment18.material = "Nylon";
         equipment18.weight = 1.0;
-        equipment18.color = "Black";
+        equipment18.color = "Black";*/
         equipment18.getGymEquipmentsInfo();
 
-        GymEquipments equipment19 = new GymEquipments();
-        equipment19.equipmentName = "Core Sliders";
+        GymEquipments equipment19 = new GymEquipments("Core Sliders", "ProForm", 29.99, "Core", "Foam", 1.0, "Black");
+        /*equipment19.equipmentName = "Core Sliders";
         equipment19.brand = "ProForm";
         equipment19.price = 29.99;
         equipment19.type = "Core";
         equipment19.material = "Foam";
         equipment19.weight = 1.0;
-        equipment19.color = "Black";
+        equipment19.color = "Black";*/
         equipment19.getGymEquipmentsInfo();
 
-        GymEquipments equipment20 = new GymEquipments();
-        equipment20.equipmentName = "Punching Bag";
+        GymEquipments equipment20 = new GymEquipments("Punching Bag", "Everlast", 149.99, "Cardio/Strength", "Synthetic Leather", 40.0, "Red");
+        /*equipment20.equipmentName = "Punching Bag";
         equipment20.brand = "Everlast";
         equipment20.price = 149.99;
         equipment20.type = "Cardio/Strength";
         equipment20.material = "Synthetic Leather";
         equipment20.weight = 40.0;
-        equipment20.color = "Red";
+        equipment20.color = "Red";*/
         equipment20.getGymEquipmentsInfo();
     }
 }

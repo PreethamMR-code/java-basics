@@ -1,182 +1,204 @@
 public class AmusementParkRunner {
+	
     public static void main(String[] args) {
-        AmusementPark park1 = new AmusementPark();
-        park1.name = "Wonderland";
+		
+        AmusementPark park1 = new AmusementPark("Wonderland","California","10:00 AM - 8:00 PM", 25, 49.99);
+		
+        /*park1.name = "Wonderland";
         park1.location = "California";
         park1.openingHours = "10:00 AM - 8:00 PM";
         park1.numberOfRides = 25;
-        park1.entryFee = 49.99;
+        park1.entryFee = 49.99;*/
 
        park1.getApInfo();
 
-        AmusementPark park2 = new AmusementPark();
-        park2.name = "Adventure Land";
-        park2.location = "Florida";
+        AmusementPark park2 = new AmusementPark("Adventure Land", "Adventure Land", "9:00 AM - 9:00 PM", 30, 59.99);
+		
+        /*park2.name = "Adventure Land";
+        park2.location = "Adventure Land";
         park2.openingHours = "9:00 AM - 9:00 PM";
         park2.numberOfRides = 30;
-        park2.entryFee = 59.99;
+        park2.entryFee = 59.99;*/
 
         park2.getApInfo();
 
-        AmusementPark park3 = new AmusementPark();
-        park3.name = "Thrill City";
+        AmusementPark park3 = new AmusementPark("Thrill City", "Texas", "11:00 AM - 7:00 PM", 20, 39.99);
+        
+		/*park3.name = "Thrill City";
         park3.location = "Texas";
         park3.openingHours = "11:00 AM - 7:00 PM";
         park3.numberOfRides = 20;
-        park3.entryFee = 39.99;
+        park3.entryFee = 39.99;*/
 
 		park3.getApInfo();
 
-        AmusementPark park4 = new AmusementPark();
-        park4.name = "Fun World";
+        AmusementPark park4 = new AmusementPark("Fun World", "New Jersey", "10:00 AM - 6:00 PM", 15, 29.99);
+        
+		/*park4.name = "Fun World";
         park4.location = "New Jersey";
         park4.openingHours = "10:00 AM - 6:00 PM";
         park4.numberOfRides = 15;
-        park4.entryFee = 29.99;
+        park4.entryFee = 29.99;*/
 
         park4.getApInfo();  
 
-        AmusementPark park5 = new AmusementPark();
-        park5.name = "Fantasy Park";
+        AmusementPark park5 = new AmusementPark("Fantasy Park", "California", "10:00 AM - 8:00 PM", 28, 54.99);
+        
+		/*park5.name = "Fantasy Park";
         park5.location = "California";
         park5.openingHours = "10:00 AM - 8:00 PM";
         park5.numberOfRides = 28;
-        park5.entryFee = 54.99;
+        park5.entryFee = 54.99;*/
 
         park5.getApInfo();      
 
-        AmusementPark park6 = new AmusementPark();
-        park6.name = "Oceanic Fun Park";
+        AmusementPark park6 = new AmusementPark("Oceanic Fun Park", "Florida", "10:00 AM - 6:00 PM", 22, 39.99);
+        
+		/*park6.name = "Oceanic Fun Park";
         park6.location = "Florida";
         park6.openingHours = "10:00 AM - 6:00 PM";
         park6.numberOfRides = 22;
-        park6.entryFee = 39.99;
+        park6.entryFee = 39.99;*/
 
         park6.getApInfo();  
 
-        AmusementPark park7 = new AmusementPark();
-        park7.name = "Galaxy Rides";
+        AmusementPark park7 = new AmusementPark("Galaxy Rides", "California", "11:00 AM - 7:00 PM", 27, 59.99);
+        
+		/*park7.name = "Galaxy Rides";
         park7.location = "California";
         park7.openingHours = "11:00 AM - 7:00 PM";
         park7.numberOfRides = 27;
-        park7.entryFee = 59.99;
+        park7.entryFee = 59.99;*/
 
       park7.getApInfo();  
 
-        AmusementPark park8 = new AmusementPark();
-        park8.name = "Adventure Bay";
+        AmusementPark park8 = new AmusementPark("Adventure Bay", "Florida", "10:00 AM - 8:00 PM", 25, 49.99);
+        
+		/*park8.name = "Adventure Bay";
         park8.location = "Florida";
         park8.openingHours = "10:00 AM - 8:00 PM";
         park8.numberOfRides = 25;
-        park8.entryFee = 49.99;
+        park8.entryFee = 49.99;*/
 
         park8.getApInfo();   
 
-        AmusementPark park9 = new AmusementPark();
-        park9.name = "Magic Kingdom";
+        AmusementPark park9 = new AmusementPark("Magic Kingdom", "Florida", "9:00 AM - 11:00 PM", 30, 99.99);
+        
+		/*park9.name = "Magic Kingdom";
         park9.location = "Florida";
         park9.openingHours = "9:00 AM - 11:00 PM";
         park9.numberOfRides = 30;
-        park9.entryFee = 99.99;
+        park9.entryFee = 99.99;*/
 
         park9.getApInfo();    
 
-        AmusementPark park10 = new AmusementPark();
-        park10.name = "Thrill Zone";
+        AmusementPark park10 = new AmusementPark("Thrill Zone", "Texas", "10:00 AM - 9:00 PM", 20, 44.99);
+        
+		/*park10.name = "Thrill Zone";
         park10.location = "Texas";
         park10.openingHours = "10:00 AM - 9:00 PM";
         park10.numberOfRides = 20;
-        park10.entryFee = 44.99;
+        park10.entryFee = 44.99;*/
 
         park10.getApInfo();  
 
-        AmusementPark park11 = new AmusementPark();
-        park11.name = "Fantasy World";
+        AmusementPark park11 = new AmusementPark("Fantasy World", "California", "10:00 AM - 8:00 PM", 26, 59.99);
+        
+		/*park11.name = "Fantasy World";
         park11.location = "California";
         park11.openingHours = "10:00 AM - 8:00 PM";
         park11.numberOfRides = 26;
-        park11.entryFee = 59.99;
+        park11.entryFee = 59.99;*/
 
         park11.getApInfo();  
 
-        AmusementPark park12 = new AmusementPark();
-        park12.name = "Ocean Adventure";
+        AmusementPark park12 = new AmusementPark("Ocean Adventure", "California", "10:00 AM - 8:00 PM", 30, 69.99);
+        
+		/*park12.name = "Ocean Adventure";
         park12.location = "California";
         park12.openingHours = "10:00 AM - 8:00 PM";
         park12.numberOfRides = 30;
-        park12.entryFee = 69.99;
+        park12.entryFee = 69.99;*/
 
         park12.getApInfo();  
 
-        AmusementPark park13 = new AmusementPark();
-        park13.name = "Galaxy Fun Park";
+        AmusementPark park13 = new AmusementPark("Galaxy Fun Park", "California", "10:00 AM - 8:00 PM", 28, 54.99);
+        
+		/*park13.name = "Galaxy Fun Park";
         park13.location = "California";
         park13.openingHours = "10:00 AM - 8:00 PM";
         park13.numberOfRides = 28;
-        park13.entryFee = 54.99;
+        park13.entryFee = 54.99;*/
 
         park13.getApInfo();  
 
-        AmusementPark park14 = new AmusementPark();
-        park14.name = "Adventure Island";
+        AmusementPark park14 = new AmusementPark("Adventure Island", "California", "10:00 AM - 8:00 PM", 32, 74.99);
+        
+		/*park14.name = "Adventure Island";
         park14.location = "California";
         park14.openingHours = "10:00 AM - 8:00 PM";
         park14.numberOfRides = 32;
-        park14.entryFee = 74.99;
+        park14.entryFee = 74.99;*/
 
         park14.getApInfo();  
 
-        AmusementPark park15 = new AmusementPark();
-        park15.name = "Fun Galaxy";
+        AmusementPark park15 = new AmusementPark("Fun Galaxy", "California", "10:00 AM - 8:00 PM", 30, 59.99);
+       
+	   /*park15.name = "Fun Galaxy";
         park15.location = "California";
         park15.openingHours = "10:00 AM - 8:00 PM";
         park15.numberOfRides = 30;
-        park15.entryFee = 59.99;
+        park15.entryFee = 59.99;*/
 
         park15.getApInfo(); 
 
-        AmusementPark park16 = new AmusementPark();
-        park16.name = "Thrill Adventure";
+        AmusementPark park16 = new AmusementPark("Thrill Adventure", "California", "10:00 AM - 8:00 PM", 35, 79.99);
+        
+		/*park16.name = "Thrill Adventure";
         park16.location = "California";
         park16.openingHours = "10:00 AM - 8:00 PM";
         park16.numberOfRides = 35;
-        park16.entryFee = 79.99;
+        park16.entryFee = 79.99;*/
 
         park16.getApInfo();
 
-        AmusementPark park17 = new AmusementPark();
-        park17.name = "Fantasy Adventure";
+        AmusementPark park17 = new AmusementPark("Fantasy Adventure", "California", "10:00 AM - 8:00 PM", 40, 89.99);
+        
+		/*park17.name = "Fantasy Adventure";
         park17.location = "California";
         park17.openingHours = "10:00 AM - 8:00 PM";
         park17.numberOfRides = 40;
-        park17.entryFee = 89.99;
+        park17.entryFee = 89.99;*/
 
          park17.getApInfo();
 
-        AmusementPark park18 = new AmusementPark();
-        park18.name = "Galaxy Adventure";
+        AmusementPark park18 = new AmusementPark("Galaxy Adventure", "California", "10:00 AM - 8:00 PM", 45, 99.99);
+        
+		/*park18.name = "Galaxy Adventure";
         park18.location = "California";
         park18.openingHours = "10:00 AM - 8:00 PM";
         park18.numberOfRides = 45;
-        park18.entryFee = 99.99;
+        park18.entryFee = 99.99;*/
 
         park18.getApInfo(); 
 
-        AmusementPark park19 = new AmusementPark();
-        park19.name = "Adventure Galaxy";
+        AmusementPark park19 = new AmusementPark("Adventure Galaxy", "California", "10:00 AM - 8:00 PM", 50, 109.99);
+       
+	  /* park19.name = "Adventure Galaxy";
         park19.location = "California";
         park19.openingHours = "10:00 AM - 8:00 PM";
         park19.numberOfRides = 50;
-        park19.entryFee = 109.99;
+        park19.entryFee = 109.99;*/
 
         park19.getApInfo();   
 	  
-	    AmusementPark park20 = new AmusementPark();
-        park19.name = "wonderla";
+	    AmusementPark park20 = new AmusementPark("Wonderla", "Bengaluru", "10:00 AM - 8:00 PM", 50, 109.99);
+       
+	  /* park19.name = "wonderla";
         park19.location = "bengaaluru";
         park19.openingHours = "10:00 AM - 8:00 PM";
         park19.numberOfRides = 50;
-        park19.entryFee = 109.99;
+        park19.entryFee = 109.99;*/
 
       park20.getApInfo();  
 
