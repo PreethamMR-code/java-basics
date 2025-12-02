@@ -1,28 +1,24 @@
 class Book {
-
-    String bName;
-    String isbnNo;
+    String title;
     String author;
-    String publisher;
+    int pages;
     double price;
 
     Book() {
-        this.bName = "Core Java";
-        this.isbnNo = "ISBN123";
-        this.author = "Oracle";
-        this.publisher = "Bharath";
-        this.price = 599.00;
-
+        System.out.println("Book constructor invoked");
     }
 
-    void bookInfo() {
+    Book(String title, String author) {
+        System.out.println("Book parameterized constructor invoked");
+        this.title = title;
+        this.author = author;
+    }
 
-        System.out.println("......Book Details.....");
-        System.out.println("Book Name :" + bName);
-        System.out.println("Book ISBN Number :" + isbnNo);
-        System.out.println("Book Author :" + author);
-        System.out.println("Book Publisher :" + publisher);
-        System.out.println("Book Price :" + price);
-
+    public void getInfo() {
+        System.out.println("--- Book Details ---");
+        System.out.println("Title: " + title);
+        System.out.println("Author: " + author);
+        System.out.println("Pages: " + pages);
+        System.out.println("Price: $" + price);
     }
 }
